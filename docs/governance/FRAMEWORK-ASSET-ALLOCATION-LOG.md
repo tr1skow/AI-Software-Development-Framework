@@ -38,10 +38,10 @@ Permanent lock occurs at first merge to `main`. See
 | FA-016 | Approval Decision Template | template | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
 | FA-017 | Implementation Support Guide | guide | active | `d9d165f53d14ce19f926a8bcf6af97ce11f9ceab` | | Execution Support |
 | FA-018 | Artefact Fitness Readiness Template | template | active | `d9d165f53d14ce19f926a8bcf6af97ce11f9ceab` | | Execution Support |
-| FA-019 | Decision Support Guide | guide | active | `pending publication commit` | | Mid-loop |
-| FA-020 | Decision Support Outcome Template | template | active | `pending publication commit` | | Mid-loop |
-| FA-021 | Planning Guide | guide | active | `pending publication commit` | | Mid-loop |
-| FA-022 | Planning Outcome Template | template | active | `pending publication commit` | | Mid-loop |
+| FA-019 | Decision Support Guide | guide | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
+| FA-020 | Decision Support Outcome Template | template | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
+| FA-021 | Planning Guide | guide | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
+| FA-022 | Planning Outcome Template | template | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
 
 ---
 
