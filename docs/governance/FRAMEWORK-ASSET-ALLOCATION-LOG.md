@@ -23,11 +23,11 @@ Permanent lock occurs at first merge to `main`. See
 | FA-001 | Normative Labelling Convention | labelling-convention | active | `a412d53755871b8eae07acbf08d17f33d672befa` | | |
 | FA-002 | Method Spine | method | active | `a412d53755871b8eae07acbf08d17f33d672befa` | | |
 | FA-003 | Framework Overview | overview | active | `a412d53755871b8eae07acbf08d17f33d672befa` | | |
-| FA-004 | Pinning and Baseline Guide | guide | active | `pending publication commit` | | E3 Project Integration |
-| FA-005 | Local Project Entry Guide | guide | active | `pending publication commit` | | E3; owns agent discovery contract |
-| FA-006 | Local Project Entry Template | template | active | `pending publication commit` | | E3 Project Integration |
-| FA-007 | Minimal Project Policy Starter | template | active | `pending publication commit` | | E3 Project Integration |
-| FA-008 | Greenfield Initialisation Checklist | checklist | active | `pending publication commit` | | E3 Project Integration |
+| FA-004 | Pinning and Baseline Guide | guide | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
+| FA-005 | Local Project Entry Guide | guide | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3; owns agent discovery contract |
+| FA-006 | Local Project Entry Template | template | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
+| FA-007 | Minimal Project Policy Starter | template | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
+| FA-008 | Greenfield Initialisation Checklist | checklist | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
 
 ---
 
