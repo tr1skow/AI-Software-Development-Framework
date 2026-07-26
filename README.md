@@ -41,38 +41,50 @@ stacks and domains.
 
 | | |
 | --- | --- |
-| **Phase** | Architecture Phase |
-| **Maturity** | Pre-authoring — architectural decisions are being frozen; importable guides and templates are **not** published yet |
-| **Usability** | Suitable for following and reviewing architecture work — **not** a production-ready adoption kit |
+| **Phase** | **Framework Construction** |
+| **Architecture Foundation** | **Complete** |
+| **Maturity** | Construction has begun; the importable Framework MVP is **not** complete yet |
+| **Usability** | Architecture and core assets are available for review — **not** a complete importable kit or production-ready published Baseline |
 
 ---
 
-## Architecture Baseline
+## Architecture Foundation
 
-The current Framework Architecture Baseline includes:
+The Architecture Foundation is complete. It consists of:
 
-- Stage 1A Framework Architecture (frozen)
-- Stage 1A.1 Architecture Refinement (accepted)
-- Stage 1B ADR roadmap (approved)
-
-**Accepted ADRs** (authoritative decision records):
-
-| ADR | Title |
-| --- | --- |
-| [ADR-001](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) | Framework Core Semantics |
-| [ADR-002](docs/adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md) | Baseline Pinning and Versioning |
-| [ADR-003](docs/adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md) | Project Integration and Precedence |
+- frozen Stage 1A / Stage 1A.1 architecture
+- [ADR-001 — Framework Core Semantics](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) (Accepted)
+- [ADR-002 — Baseline Pinning and Versioning](docs/adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md) (Accepted)
+- [ADR-003 — Project Integration and Precedence](docs/adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md) (Accepted)
+- [ADR-004 — Agent Interaction Model](docs/adr/ADR-004-AGENT-INTERACTION-MODEL.md) (Accepted)
 
 Decision detail lives in those ADRs. This README does not restate their rules.
 
 ---
 
+## Framework Core Assets
+
+Published Framework Core Assets (E2):
+
+| Asset | Role |
+| --- | --- |
+| [FA-001 (Normative Labelling Convention)](docs/FA-001-NORMATIVE-LABELLING-CONVENTION.md) | Document force labels |
+| [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md) | Normative Method principles |
+| [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md) | Framework map |
+
+This README does not duplicate their contents.
+
+---
+
 ## Current work
 
-**In progress:** remaining pre-authoring architecture (next: ADR-004 — Agent Interaction Model).
+**Active phase:** Framework Construction.
 
-**Not started yet:** Framework asset authoring (guides, templates, adoption
-paths), published Framework Baselines for project import, and tool adapters.
+**Next construction area (not started):** **E3 — Project Integration Assets** —
+pinning and Baseline guidance, plus Local Project Entry guidance and template.
+
+**Not complete yet:** importable MVP kit, published consumer Framework Baseline,
+Getting Started adoption paths, Agent Pack, and tool adapters.
 
 ---
 
@@ -80,25 +92,28 @@ paths), published Framework Baselines for project import, and tool adapters.
 
 | You can | You should not yet |
 | --- | --- |
-| Read the vision and Accepted ADRs | Treat this repo as a drop-in project kit |
-| Track architectural progress | Expect pin-ready guides, Entry templates, or agent packs |
-| Plan future adoption against the emerging baseline | Assume production readiness or stable Baseline identity |
+| Review the Architecture Foundation and core assets | Treat this repo as a complete importable Framework kit |
+| Read Method, Overview, and Accepted ADRs | Expect a production-ready published Framework Baseline |
+| Track construction progress | Claim full Framework adoption for a product |
 
 A consuming project will later pin an immutable **Framework Baseline** and use
-a **Local Project Entry** as its integration gateway. Those adoption assets are
-not authored in this phase.
+a **Local Project Entry** as its integration gateway. Those Project Integration
+and adoption assets are not published yet.
 
 ---
 
 ## Where to start
 
-1. Read this page for orientation.
-2. Skim the [Accepted ADRs](docs/adr/) in order (001 → 002 → 003).
-3. Watch for ADR-004 and the later authoring phase if you intend to adopt.
+1. Read [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md).
+2. Read [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md).
+3. Consult [ADR-001](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) through
+   [ADR-004](docs/adr/ADR-004-AGENT-INTERACTION-MODEL.md) for architectural
+   authority.
+4. Follow repository development until Project Integration and adoption assets
+   are published.
 
-If you are evaluating adoption for a real product: treat the Architecture
-Baseline as the current contract of intent, and wait for published baselines
-and Getting Started materials before importing into a project.
+This is not a Getting Started import procedure. No fake adoption steps are
+provided here.
 
 ---
 
@@ -112,20 +127,20 @@ and Getting Started materials before importing into a project.
 | [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md) | Framework map |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Repository asset identification governance |
 
-Further guides, templates, and examples will appear here when later
-construction phases begin. They will be linked from this README without being
-inlined here.
+Further guides, templates, and examples will appear here as construction
+continues. They will be linked from this README without being inlined here.
 
 ---
 
 ## Contributing
 
-Architecture is decided through reviewed ADRs. Please do not treat informal
-README wording as normative.
+Architecture is decided through reviewed ADRs. Framework product content is
+published as Framework Assets (`FA-###`). Please do not treat informal README
+wording as normative.
 
-Contribution process and coding standards will be expanded when the project
-moves beyond the Architecture Phase. Until then, the useful contribution is
-informed review of proposed ADRs against the frozen baseline.
+Contribution process will expand as construction continues. Until then, useful
+contribution is informed review of proposed assets and ADRs against the frozen
+Architecture Foundation.
 
 ---
 
