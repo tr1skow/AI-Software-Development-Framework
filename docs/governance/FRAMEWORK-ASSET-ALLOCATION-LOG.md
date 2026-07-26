@@ -36,12 +36,14 @@ Permanent lock occurs at first merge to `main`. See
 | FA-014 | Verification Outcome Template | template | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
 | FA-015 | Approval Guide | guide | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
 | FA-016 | Approval Decision Template | template | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
+| FA-017 | Implementation Support Guide | guide | active | `pending publication commit` | | Execution Support |
+| FA-018 | Artefact Fitness Readiness Template | template | active | `pending publication commit` | | Execution Support |
 
 ---
 
 ## Next free FA ID
 
-`FA-017`
+`FA-019`
 
 ---
 
