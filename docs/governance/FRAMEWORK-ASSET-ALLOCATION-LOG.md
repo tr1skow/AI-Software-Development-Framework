@@ -30,12 +30,12 @@ Permanent lock occurs at first merge to `main`. See
 | FA-008 | Greenfield Initialisation Checklist | checklist | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
 | FA-009 | Change Classification Guide | guide | active | `a59b69a351393efec99d16ee11317be24d7473d3` | | C3 Execution |
 | FA-010 | Classification Record Template | template | active | `a59b69a351393efec99d16ee11317be24d7473d3` | | C3 Execution |
-| FA-011 | Review Guide | guide | active | `pending publication commit` | | Acceptance Chain |
-| FA-012 | Review Outcome Template | template | active | `pending publication commit` | | Acceptance Chain |
-| FA-013 | Verification Guide | guide | active | `pending publication commit` | | Acceptance Chain |
-| FA-014 | Verification Outcome Template | template | active | `pending publication commit` | | Acceptance Chain |
-| FA-015 | Approval Guide | guide | active | `pending publication commit` | | Acceptance Chain |
-| FA-016 | Approval Decision Template | template | active | `pending publication commit` | | Acceptance Chain |
+| FA-011 | Review Guide | guide | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
+| FA-012 | Review Outcome Template | template | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
+| FA-013 | Verification Guide | guide | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
+| FA-014 | Verification Outcome Template | template | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
+| FA-015 | Approval Guide | guide | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
+| FA-016 | Approval Decision Template | template | active | `d1fea754c9ef3c87077cea70ea4cfcacad2d04d5` | | Acceptance Chain |
 
 ---
 
