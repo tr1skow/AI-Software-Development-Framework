@@ -7,8 +7,8 @@ modernisation alike.
 This repository is the public home of that Framework. This README is a
 **human landing page**. It summarises status and points to authoritative
 documents. It is **not** Framework law, not a Local Project Entry, not an
-agent instruction root, and not a substitute for the Framework Assets or a
-future whitepaper.
+agent instruction root, and not a substitute for the Framework Assets or the
+[whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md).
 
 ---
 
@@ -277,6 +277,7 @@ project.
 | --- | --- |
 | [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
 | Framework Assets above | Published product content (`FA-###`) |
+| [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative / Reference architectural narrative (Framework 0.7 Alpha) |
 | [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Governance milestone declaration |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance |
 | [Allocation log](docs/governance/FRAMEWORK-ASSET-ALLOCATION-LOG.md) | `FA-###` allocation state |
