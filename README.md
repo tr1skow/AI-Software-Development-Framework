@@ -106,10 +106,15 @@ and Getting Started materials before importing into a project.
 
 | Location | Role |
 | --- | --- |
-| [docs/adr/](docs/adr/) | Authoritative architectural decisions |
+| [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
+| [FA-001 (Normative Labelling Convention)](docs/FA-001-NORMATIVE-LABELLING-CONVENTION.md) | Document force labels |
+| [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md) | Normative Method principles |
+| [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md) | Framework map |
+| [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Repository asset identification governance |
 
-Further guides, templates, and examples will appear here when the authoring
-phase begins. They will be linked from this README without being inlined here.
+Further guides, templates, and examples will appear here when later
+construction phases begin. They will be linked from this README without being
+inlined here.
 
 ---
 

@@ -1,11 +1,14 @@
-# Framework Overview
+# FA-003 — Framework Overview
 
 | Attribute | Value |
 | --------- | ----- |
-| Document | Framework Overview |
-| Status | Normative Framework (map); orientation passages Informative where noted |
+| Asset ID | FA-003 |
+| Title | Framework Overview |
+| Kind | overview |
+| Classification | Normative Framework |
+| Lifecycle Status | Accepted |
 | Phase | C1 Framework Core Assets (E2) |
-| Related | [Method Spine](./METHOD-SPINE.md); [Normative Labelling Convention](./NORMATIVE-LABELLING-CONVENTION.md); [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
+| Related | [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md); [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md); [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
 
 ---
 
@@ -33,7 +36,7 @@ root, and **not** a pin procedure.
 The Framework is a vendor-neutral, importable system for disciplined
 collaboration between humans and AI agents on software work. It combines:
 
-- a thin **Method Spine** ([METHOD-SPINE.md](./METHOD-SPINE.md))
+- a thin **Method Spine** — [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md)
 - **Framework Core** semantics (capabilities, Runtime, classification) —
   [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md)
 - **Baseline pinning and versioning** —
@@ -61,8 +64,8 @@ without a specific AI vendor.
 | **Project Policy & Entry** | How one repo specialises and discovers rules | Project-normative (ADR-003) |
 | **Adapters & examples** | Tool-specific or illustrative help | Informative |
 
-Read document force using the
-[Normative Labelling Convention](./NORMATIVE-LABELLING-CONVENTION.md).
+Read document force using
+[FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md).
 
 ---
 
@@ -123,9 +126,10 @@ Project Entry and pinned Baseline.
 *Informative.*
 
 1. Skim this Overview for the map.
-2. Read the [Method Spine](./METHOD-SPINE.md) for methodological principles.
+2. Read [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md) for methodological
+   principles.
 3. Use [Accepted ADRs](./adr/) when you need architectural decision detail.
-4. Apply the [Normative Labelling Convention](./NORMATIVE-LABELLING-CONVENTION.md)
+4. Apply [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md)
    when reading or writing Framework assets.
 5. Treat the [README](../README.md) as landing status and navigation — not law.
 
@@ -140,13 +144,13 @@ Started) are construction phases after E2 and are not defined here.
 
 | Need | Go to |
 | ---- | ----- |
-| Method principles | [Method Spine](./METHOD-SPINE.md) |
+| Method principles | [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md) |
 | Capabilities, Runtime, classification | [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) |
 | Baseline, pin, version domains | [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md) |
 | Entry, precedence, Project Policy boundary | [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md) |
 | Human/agent participation and authority | [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
-| Document force labels | [Normative Labelling Convention](./NORMATIVE-LABELLING-CONVENTION.md) |
+| Document force labels | [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md) |
 
 ---
 
-## End of Framework Overview
+## End of FA-003

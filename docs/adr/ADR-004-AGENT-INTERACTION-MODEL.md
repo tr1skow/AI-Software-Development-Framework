@@ -10,7 +10,7 @@
 | Classification | Core Architecture |
 | Product | AI Software Development Framework |
 | Phase | Pre-authoring architecture |
-| Related | [ADR-001](./ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-002](./ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [ADR-003](./ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); Method Spine (frozen); Stage 1A Framework Architecture (frozen); Stage 1A.1 Architecture Refinement (frozen); Stage 1B ADR Roadmap (frozen) |
+| Related | [ADR-001](./ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-002](./ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [ADR-003](./ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [FA-002 (Method Spine)](../FA-002-METHOD-SPINE.md) (frozen); Stage 1A Framework Architecture (frozen); Stage 1A.1 Architecture Refinement (frozen); Stage 1B ADR Roadmap (frozen) |
 
 ---
 

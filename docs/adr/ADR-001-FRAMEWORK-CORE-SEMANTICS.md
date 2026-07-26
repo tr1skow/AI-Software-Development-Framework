@@ -10,7 +10,7 @@
 | Classification | Core Architecture |
 | Product | AI Software Development Framework |
 | Phase | Pre-authoring architecture |
-| Related | Method Spine (frozen); Stage 1A Framework Architecture (frozen); Stage 1A.1 Architecture Refinement (frozen); Stage 1B ADR Roadmap (frozen) |
+| Related | [FA-002 (Method Spine)](../FA-002-METHOD-SPINE.md) (frozen); Stage 1A Framework Architecture (frozen); Stage 1A.1 Architecture Refinement (frozen); Stage 1B ADR Roadmap (frozen) |
 
 ---
 

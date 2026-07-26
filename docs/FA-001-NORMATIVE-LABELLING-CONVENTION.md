@@ -1,11 +1,14 @@
-# Normative Labelling Convention
+# FA-001 — Normative Labelling Convention
 
 | Attribute | Value |
 | --------- | ----- |
-| Document | Normative Labelling Convention |
-| Status | Normative Framework |
+| Asset ID | FA-001 |
+| Title | Normative Labelling Convention |
+| Kind | labelling-convention |
+| Classification | Normative Framework |
+| Lifecycle Status | Accepted |
 | Phase | C1 Framework Core Assets (E2) |
-| Related | [Method Spine](./METHOD-SPINE.md); [Framework Overview](./FRAMEWORK-OVERVIEW.md); [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
+| Related | [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md); [FA-003 (Framework Overview)](./FA-003-FRAMEWORK-OVERVIEW.md); [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md); [FAIS](./governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) |
 
 ---
 
@@ -35,7 +38,7 @@ humans and agents can tell what binds and what merely helps.
 ## Application rules
 
 1. Documents SHOULD declare an overall label near the top (for example in a
-   status table).
+   header table as Classification).
 2. Sections MAY carry a different label than the document when force differs
    (for example an Informative gloss inside a Normative Method document).
 3. If a section is unlabelled inside a labelled document, readers MAY treat it
@@ -56,14 +59,18 @@ humans and agents can tell what binds and what merely helps.
 9. **Project Policy** is normative *within a consuming project* (ADR-003). It
    is not a Framework document label. Framework assets must not pretend to be
    a project’s Local Project Entry or Project Policy.
+10. Framework Assets (`FA-###`) also expose Asset ID, Title, Kind, Classification,
+    and Lifecycle Status per the repository
+    [Framework Asset Identification Standard](./governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md)
+    (governance, not a Framework Asset).
 
 ---
 
 ## Suggested markup
 
-**Recommended** (reversible authoring choice): state the label in a document
-header table as `Status: …`, and prefix mixed sections with a short line such
-as `*Informative.*` or `*Normative Framework.*`.
+**Recommended** (reversible authoring choice): state Classification in the
+document header table, and prefix mixed sections with a short line such as
+`*Informative.*` or `*Normative Framework.*`.
 
 Exact Markdown syntax may evolve; the **meanings** in this document are
 Normative Framework.
@@ -77,4 +84,4 @@ format, or repository folder layout beyond what labels require for clarity.
 
 ---
 
-## End of Normative Labelling Convention
+## End of FA-001

@@ -1,11 +1,14 @@
-# Method Spine
+# FA-002 — Method Spine
 
 | Attribute | Value |
 | --------- | ----- |
-| Document | Method Spine |
-| Status | Normative Method |
+| Asset ID | FA-002 |
+| Title | Method Spine |
+| Kind | method |
+| Classification | Normative Method |
+| Lifecycle Status | Accepted |
 | Phase | C1 Framework Core Assets (E2) |
-| Related | [Normative Labelling Convention](./NORMATIVE-LABELLING-CONVENTION.md); [Framework Overview](./FRAMEWORK-OVERVIEW.md); Accepted ADRs under [docs/adr/](./adr/) |
+| Related | [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md); [FA-003 (Framework Overview)](./FA-003-FRAMEWORK-OVERVIEW.md); Accepted ADRs under [docs/adr/](./adr/) |
 
 ---
 
@@ -143,4 +146,4 @@ for Baseline immutability and evolution philosophy.
 
 ---
 
-## End of Method Spine
+## End of FA-002
