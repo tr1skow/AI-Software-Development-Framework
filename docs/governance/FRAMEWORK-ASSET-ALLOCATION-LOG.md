@@ -28,8 +28,8 @@ Permanent lock occurs at first merge to `main`. See
 | FA-006 | Local Project Entry Template | template | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
 | FA-007 | Minimal Project Policy Starter | template | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
 | FA-008 | Greenfield Initialisation Checklist | checklist | active | `6e5a22c67e53669f27d416cb40afbee59f08aa3f` | | E3 Project Integration |
-| FA-009 | Change Classification Guide | guide | active | `pending publication commit` | | C3 Execution |
-| FA-010 | Classification Record Template | template | active | `pending publication commit` | | C3 Execution |
+| FA-009 | Change Classification Guide | guide | active | `a59b69a351393efec99d16ee11317be24d7473d3` | | C3 Execution |
+| FA-010 | Classification Record Template | template | active | `a59b69a351393efec99d16ee11317be24d7473d3` | | C3 Execution |
 
 ---
 
