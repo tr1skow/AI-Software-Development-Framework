@@ -42,12 +42,14 @@ Permanent lock occurs at first merge to `main`. See
 | FA-020 | Decision Support Outcome Template | template | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
 | FA-021 | Planning Guide | guide | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
 | FA-022 | Planning Outcome Template | template | active | `0a09a7ff3958ab678df16d526b4ac9a6141493c7` | | Mid-loop |
+| FA-023 | Discovery Guide | guide | active | `pending publication commit` | | Feeds Runtime Execution Spine |
+| FA-024 | Discovery Outcome Template | template | active | `pending publication commit` | | Feeds Runtime Execution Spine |
 
 ---
 
 ## Next free FA ID
 
-`FA-023`
+`FA-025`
 
 ---
 
