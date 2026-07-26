@@ -1292,7 +1292,10 @@ one adoption path.
 ### What comes next
 
 Once adopted by a project, the Framework can be exercised through real software
-development.
+development. Day-to-day operational use — how humans and AI assistants enter and
+conduct Framework-governed work after Project Integration — is documented
+separately in the
+[Framework Invocation Guide](../FRAMEWORK-INVOCATION-GUIDE.md).
 
 The next chapter explains the role of a **Reference Implementation**.
 
@@ -1659,7 +1662,9 @@ agents can collaborate on real changes without orphaning accountability or
 forking meaning per repository.
 
 This whitepaper is Informative / Reference. Authority remains in Accepted ADRs
-and labelled Framework Assets under the project’s pinned Baseline.
+and labelled Framework Assets under the project’s pinned Baseline. Day-to-day
+operational use after adoption is documented separately in the
+[Framework Invocation Guide](../FRAMEWORK-INVOCATION-GUIDE.md).
 
 Responsible software engineering is ultimately built on trust, and trust begins
 with governance.

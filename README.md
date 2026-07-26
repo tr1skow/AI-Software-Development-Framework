@@ -271,6 +271,20 @@ project.
 
 ---
 
+## Framework Invocation
+
+After a project has adopted the Framework (Project Integration in place), day-to-day
+operational use is documented in the
+[Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md).
+
+It is the permanent **Informative / Reference** operational reference for humans
+and AI assistants: discover governance roots, follow the Effective
+Classification, invoke only bound capabilities, apply Stop and Human Authority,
+and record required outcomes. It is not Framework law, not Runtime definition,
+and not an Alpha Adoption Guide.
+
+---
+
 ## Documentation map
 
 | Location | Role |
@@ -278,6 +292,7 @@ project.
 | [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
 | Framework Assets above | Published product content (`FA-###`) |
 | [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative / Reference architectural narrative (Framework 0.7 Alpha) |
+| [Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md) | Informative / Reference permanent operational reference (after Project Integration) |
 | [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Governance milestone declaration |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance |
 | [Allocation log](docs/governance/FRAMEWORK-ASSET-ALLOCATION-LOG.md) | `FA-###` allocation state |
