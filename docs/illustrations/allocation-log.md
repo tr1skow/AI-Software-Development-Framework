@@ -14,14 +14,18 @@ Status values follow the AIS-000 **illustration status model**: Draft,
 Approved, Published, Deprecated (publication status of the illustration —
 separate from the Sketch → … → Referenced production flow).
 
+**Hero** (optional): `Yes` if the illustration is intended as a primary hero
+figure (for example README); otherwise leave blank or `No`.
+
 ---
 
 ## Allocation table
 
-| AIS ID | Title | Status | Path (SVG) | Referenced by | Notes |
-| ------ | ----- | ------ | ---------- | ------------- | ----- |
-| AIS-000 | Architecture Illustration System | Draft (standard) | — | — | This standard; not a figure |
-| AIS-001+ | — | Unallocated | — | — | Next free illustration ID |
+| AIS ID | Title | Status | Path (SVG) | Referenced by | Hero | Notes |
+| ------ | ----- | ------ | ---------- | ------------- | ---- | ----- |
+| AIS-000 | Architecture Illustration System | Published (standard) | — | — | — | Illustration system standard; not a figure |
+| AIS-001 | Framework Documentation Map | Published | [svg/AIS-001-framework-documentation-map.svg](./svg/AIS-001-framework-documentation-map.svg) | README | Yes | v1.0; [metadata](./svg/AIS-001-framework-documentation-map.metadata.md) |
+| AIS-002+ | — | Unallocated | — | — | — | Next free illustration ID |
 
 **Referenced by** lists primary documentation citations for maintainers (for
 example: `README`, `Whitepaper §4`). Update when links are added or removed.
@@ -39,6 +43,7 @@ This is documentation maintenance only.
 5. Canonical files live under `svg/`; derived PNG under `png/`.
 6. Optionally record an illustration **Changes** log by version (see AIS-000);
    this does not replace Git history.
+7. Set **Hero** when an illustration is designated as a primary hero figure.
 
 ---
 

@@ -10,6 +10,14 @@ documents. It is **not** Framework law, not a Local Project Entry, not an
 agent instruction root, and not a substitute for the Framework Assets or the
 [whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md).
 
+### Framework documentation map
+
+![AIS-001 Framework Documentation Map: README is the primary entry point and references the Whitepaper, Alpha Adoption Guide, Invocation Guide, Framework Assets, and ADRs. Adoption hands off to Invocation. AI assistants use the same discovery path. Informative only; not a Runtime workflow.](docs/illustrations/png/AIS-001-framework-documentation-map.png)
+
+*Framework Documentation Map — Start here to understand how the Framework
+documentation is organised. (AIS-001 · Informative / Reference ·
+[SVG](docs/illustrations/svg/AIS-001-framework-documentation-map.svg))*
+
 ---
 
 ## Why this exists
