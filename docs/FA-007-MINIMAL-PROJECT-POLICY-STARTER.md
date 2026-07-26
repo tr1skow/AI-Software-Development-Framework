@@ -7,7 +7,7 @@
 | Kind | template |
 | Classification | Normative Framework (structure); Recommended starter prose |
 | Lifecycle Status | Accepted |
-| Related | [FA-005 (Local Project Entry Guide)](./FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md); [FA-006 (Local Project Entry Template)](./FA-006-LOCAL-PROJECT-ENTRY-TEMPLATE.md); [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md); [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
+| Related | [FA-005 (Local Project Entry Guide)](./FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md); [FA-006 (Local Project Entry Template)](./FA-006-LOCAL-PROJECT-ENTRY-TEMPLATE.md); [FA-009 (Change Classification Guide)](./FA-009-CHANGE-CLASSIFICATION-GUIDE.md); [FA-010 (Classification Record Template)](./FA-010-CLASSIFICATION-RECORD-TEMPLATE.md); [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md); [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
 
 ---
 
@@ -107,6 +107,10 @@ Suggested Day-0 defaults many solo greenfield teams start with:
   humans accept material work
 - fallback review: structured self-review + deferred independent review for
   material changes
+- classification: use [FA-009 (Change Classification Guide)](./FA-009-CHANGE-CLASSIFICATION-GUIDE.md)
+  Recommended default labels and mappings initially; specialise labels and
+  thresholds here later if needed; record each change with
+  [FA-010 (Classification Record Template)](./FA-010-CLASSIFICATION-RECORD-TEMPLATE.md)
 
 ---
 
@@ -114,11 +118,12 @@ Suggested Day-0 defaults many solo greenfield teams start with:
 
 *Informative.*
 
-- Add materiality thresholds and class-label mappings when Execution assets
-  (Change Classification) are available.
+- Prefer FA-009 Recommended defaults until a project needs local class-label
+  mappings or materiality thresholds; specialise in this Policy without
+  weakening Method or Core invariants.
 - Raise posture for sensitive work without waiting for a Baseline upgrade.
 - Keep policy short; put long architecture narratives in architecture-context
-  paths, not here.
+  paths, not here. Do not duplicate FA-009 Classification guidance in Policy.
 
 ---
 

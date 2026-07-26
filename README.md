@@ -43,8 +43,11 @@ stacks and domains.
 | --- | --- |
 | **Phase** | **Framework Construction** |
 | **Architecture Foundation** | **Complete** |
-| **Maturity** | Construction has begun; the importable Framework MVP is **not** complete yet |
-| **Usability** | Architecture and core assets are available for review — **not** a complete importable kit or production-ready published Baseline |
+| **Project Integration Assets** | **Complete** (FA-004–FA-008) |
+| **Change Classification** | **Operationalised** (FA-009–FA-010) |
+| **Further Execution Assets** | Under construction (not yet selected or started) |
+| **Maturity** | Construction in progress; the full importable Framework MVP is **not** complete yet |
+| **Usability** | Greenfield Project Integration and Change Classification are usable for review and early trial — **not** a complete production-ready Framework kit or published consumer Baseline |
 
 ---
 
@@ -62,9 +65,9 @@ Decision detail lives in those ADRs. This README does not restate their rules.
 
 ---
 
-## Framework Core Assets
+## Framework Assets
 
-Published Framework Core Assets (E2):
+### Framework Core Assets
 
 | Asset | Role |
 | --- | --- |
@@ -72,7 +75,24 @@ Published Framework Core Assets (E2):
 | [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md) | Normative Method principles |
 | [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md) | Framework map |
 
-This README does not duplicate their contents.
+### Project Integration Assets
+
+| Asset | Role |
+| --- | --- |
+| [FA-004 (Pinning and Baseline Guide)](docs/FA-004-PINNING-AND-BASELINE-GUIDE.md) | Pin a reproducible Baseline |
+| [FA-005 (Local Project Entry Guide)](docs/FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md) | Canonical project gateway (incl. agent discovery) |
+| [FA-006 (Local Project Entry Template)](docs/FA-006-LOCAL-PROJECT-ENTRY-TEMPLATE.md) | Entry declaration template |
+| [FA-007 (Minimal Project Policy Starter)](docs/FA-007-MINIMAL-PROJECT-POLICY-STARTER.md) | Minimal Project Policy starter |
+| [FA-008 (Greenfield Initialisation Checklist)](docs/FA-008-GREENFIELD-INITIALISATION-CHECKLIST.md) | Day-0 greenfield gate |
+
+### Change Classification Assets
+
+| Asset | Role |
+| --- | --- |
+| [FA-009 (Change Classification Guide)](docs/FA-009-CHANGE-CLASSIFICATION-GUIDE.md) | Capability binding mechanism |
+| [FA-010 (Classification Record Template)](docs/FA-010-CLASSIFICATION-RECORD-TEMPLATE.md) | Classification record shape |
+
+This README does not duplicate asset contents.
 
 ---
 
@@ -80,11 +100,14 @@ This README does not duplicate their contents.
 
 **Active phase:** Framework Construction.
 
-**Next construction area (not started):** **E3 — Project Integration Assets** —
-pinning and Baseline guidance, plus Local Project Entry guidance and template.
+**Complete:** E3 — Project Integration Assets; first Execution capability —
+Change Classification (FA-009, FA-010).
 
-**Not complete yet:** importable MVP kit, published consumer Framework Baseline,
-Getting Started adoption paths, Agent Pack, and tool adapters.
+**Not started:** the next Execution capability set (not yet selected).
+
+**Not complete yet:** remaining Runtime capability assets, importable MVP kit,
+published consumer Framework Baseline, Getting Started adoption paths, Agent
+Pack, and tool adapters.
 
 ---
 
@@ -92,13 +115,14 @@ Getting Started adoption paths, Agent Pack, and tool adapters.
 
 | You can | You should not yet |
 | --- | --- |
-| Review the Architecture Foundation and core assets | Treat this repo as a complete importable Framework kit |
-| Read Method, Overview, and Accepted ADRs | Expect a production-ready published Framework Baseline |
-| Track construction progress | Claim full Framework adoption for a product |
+| Establish a greenfield Project Integration (pin, Entry, Policy, checklist) | Treat this repo as a complete importable Framework kit |
+| Classify a change with FA-009 / FA-010 | Expect a complete Runtime capability set or production-ready published Baseline |
+| Review Architecture Foundation, Method, and Accepted ADRs | Claim full Framework adoption for a product |
 
-A consuming project will later pin an immutable **Framework Baseline** and use
-a **Local Project Entry** as its integration gateway. Those Project Integration
-and adoption assets are not published yet.
+A consuming project pins a Framework Baseline and uses a Local Project Entry as
+its integration gateway. Change Classification produces the binding set for
+Framework-governed work. Further Execution capabilities remain under
+construction.
 
 ---
 
@@ -106,14 +130,18 @@ and adoption assets are not published yet.
 
 1. Read [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md).
 2. Read [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md).
-3. Consult [ADR-001](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) through
+3. Use [FA-004](docs/FA-004-PINNING-AND-BASELINE-GUIDE.md) through
+   [FA-008](docs/FA-008-GREENFIELD-INITIALISATION-CHECKLIST.md) for project
+   initialisation.
+4. Use [FA-009](docs/FA-009-CHANGE-CLASSIFICATION-GUIDE.md) and
+   [FA-010](docs/FA-010-CLASSIFICATION-RECORD-TEMPLATE.md) for the first
+   classified change.
+5. Consult [ADR-001](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) through
    [ADR-004](docs/adr/ADR-004-AGENT-INTERACTION-MODEL.md) for architectural
    authority.
-4. Follow repository development until Project Integration and adoption assets
-   are published.
 
-This is not a Getting Started import procedure. No fake adoption steps are
-provided here.
+This is not a Getting Started import procedure. No fake complete-adoption steps
+are provided here.
 
 ---
 
@@ -122,9 +150,7 @@ provided here.
 | Location | Role |
 | --- | --- |
 | [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
-| [FA-001 (Normative Labelling Convention)](docs/FA-001-NORMATIVE-LABELLING-CONVENTION.md) | Document force labels |
-| [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md) | Normative Method principles |
-| [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md) | Framework map |
+| Framework Assets above | Published `FA-###` by construction area |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Repository asset identification governance |
 
 Further guides, templates, and examples will appear here as construction
