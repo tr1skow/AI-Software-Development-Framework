@@ -271,6 +271,18 @@ project.
 
 ---
 
+## Framework 0.7 Alpha Adoption
+
+To evaluate the Framework on a real project under **Framework 0.7 Alpha**, see the
+[Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md).
+
+It is a temporary **Informative / Reference** evaluation guide: establish Project
+Integration and complete a first Framework-governed change, then hand off to the
+Framework Invocation Guide. It is not Framework law, not a production onboarding
+kit, and not a permanent Getting Started.
+
+---
+
 ## Framework Invocation
 
 After a project has adopted the Framework (Project Integration in place), day-to-day
@@ -292,6 +304,7 @@ and not an Alpha Adoption Guide.
 | [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
 | Framework Assets above | Published product content (`FA-###`) |
 | [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative / Reference architectural narrative (Framework 0.7 Alpha) |
+| [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) | Informative / Reference temporary Alpha evaluation adoption path |
 | [Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md) | Informative / Reference permanent operational reference (after Project Integration) |
 | [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Governance milestone declaration |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance |
