@@ -184,14 +184,14 @@ or commitments to act when evidence appears.
 | Field | Value |
 | ----- | ----- |
 | **Title** | Release Communication |
-| **Status** | Candidate |
+| **Status** | Ready for Investigation |
 | **Origin** | Named as a terminal activity in the emergent investigative evolution practice; Evolution Process Design Investigation Open Question 4 asks how Release Communication relates to Baseline publication claims under ADR-002 without inventing a release board. |
 | **Problem Statement** | Framework changes and maturity claims need honest external communication, but no Informative pattern exists for what “release communication” means relative to Baseline identity and non-claims discipline. |
-| **Expected Investigation Type** | Design Investigation (Informative pattern only). |
+| **Expected Investigation Type** | Near term: apply Option D pattern via existing surfaces (README maturity, ADR-002 migration guidance). Later: CHANGELOG only if Maturity Trigger evidence for a log artefact appears. |
 | **Expected Value** | Reduce uncertainty about communicating Framework changes without creating release bureaucracy or overselling maturity. |
-| **Current Priority** | Low |
-| **Maturity Trigger** | Timely when **any** of these are observed: (a) README/maturity wording and a Baseline-identity or Asset publication announcement disagree about what changed; (b) the first published consumer Baseline identity (item 7 later phase) needs an external announcement and no shared non-claims checklist exists; (c) two consecutive Framework updates produce conflicting “what adopters must do” messages. |
-| **Notes** | [Design Investigation — Framework Evolution Process](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) (Open Question 4). Depends partly on Published Consumer Baseline candidate. |
+| **Current Priority** | Medium |
+| **Maturity Trigger** | **Pattern definition — met** by Design Investigation (Option D). **CHANGELOG artefact — not yet met;** timely when (a) README/maturity wording and a Baseline-identity or Asset publication announcement disagree about what changed; (b) the first published consumer Baseline identity (item 7 later phase) needs an external announcement and no shared non-claims checklist exists; or (c) two consecutive Framework updates produce conflicting “what adopters must do” messages. **Immediate practice** (no new artefact): use class-gated notes on existing surfaces when Normative/claim/Baseline events occur. |
+| **Notes** | [Design Investigation — Release Communication](./research/DESIGN-INVESTIGATION-RELEASE-COMMUNICATION.md) (**Option D**: force/compatibility-class communication; no CHANGELOG exists today; defer CHANGELOG; no AI release channel). Related: [Evolution Process Investigation](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) Open Question 4; [Published Consumer Baseline Investigation](./research/DESIGN-INVESTIGATION-PUBLISHED-CONSUMER-BASELINE.md). |
 
 ---
 
@@ -264,6 +264,7 @@ Accepted architecture):
 | 2026-07-29 | Initial backlog created from Alpha/M2 documentation and the ecosystem / evolution research track |
 | 2026-07-29 | Item 7 updated after Design Investigation (Option D); status → Ready for Investigation; priority → High |
 | 2026-07-29 | Added Maturity Trigger to all items (observable evidence only; no dates or commitments) |
+| 2026-07-29 | Item 8 updated after Release Communication Design Investigation (Option D); status → Ready for Investigation |
 
 ---
 
