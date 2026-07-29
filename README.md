@@ -139,6 +139,13 @@ or Framework 1.0.
 | **Published consumer Baseline** | Not yet |
 | **Production-ready kit claim** | **Must not** be claimed yet |
 
+*Informative.* With Runtime Foundation M2, the Architecture Foundation
+(ADR-001–004), and FA-001–024 active, **Alpha architecture is complete for
+Alpha’s declared meaning**. The primary next focus is **application and
+feedback** (including the official reference implementation) — not further
+self-evolution by default, and **not** a production-ready, Beta, or Framework
+1.0 claim.
+
 ### Roadmap (positioning only)
 
 | Milestone | Meaning |
@@ -317,6 +324,12 @@ and not an Alpha Adoption Guide.
 | [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Governance milestone declaration |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance |
 | [Allocation log](docs/governance/FRAMEWORK-ASSET-ALLOCATION-LOG.md) | `FA-###` allocation state |
+| [Evolution Backlog](docs/FRAMEWORK-EVOLUTION-BACKLOG.md) | Informative living candidates for Framework evolution — **not** a roadmap, not Normative law, not a published consumer Baseline |
+| [docs/research/](docs/research/) | Informative investigations, engineering/validation reviews, and observational notes — **not** Framework Assets, not ADRs, not pin content, not the consumer offering |
+
+*Consumer vs stewardship:* adopt and pin using Assets, ADRs, and Alpha packaging
+above. Treat Evolution Backlog and `docs/research/` as stewardship/research
+memory unless a future published Baseline explicitly includes them.
 
 ---
 
@@ -326,8 +339,19 @@ Architecture is decided through reviewed ADRs. Framework product content is
 published as Framework Assets (`FA-###`). Please do not treat informal README
 wording as normative.
 
+**How Framework product content evolves** (authorities — do not restate here):
+
+- Method amendments: [FA-002 (Method Spine) — Amendment](docs/FA-002-METHOD-SPINE.md)
+- Baseline identity, compatibility, and migration: [ADR-002](docs/adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md)
+- Asset identity lifecycle: [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md)
+- Evolution candidates (non-binding): [Evolution Backlog](docs/FRAMEWORK-EVOLUTION-BACKLOG.md)
+
 Useful contribution includes informed review of assets and ADRs against the
-frozen Architecture Foundation and the declared Runtime Foundation M2 posture.
+frozen Architecture Foundation and the declared Runtime Foundation M2 posture,
+and evidence-backed backlog candidates from real application.
+
+`docs/research/` holds Informative investigation and review material. It is
+**not** Framework law and must not be treated as a second Normative root.
 
 ---
 
