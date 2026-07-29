@@ -4,7 +4,7 @@
 | --------- | ----- |
 | Document | Framework 0.7 Alpha Adoption Guide |
 | Classification | Informative / Reference |
-| Status | Draft — awaiting publication approval |
+| Status | Published (Alpha packaging) |
 | Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
 | Kind | Official Framework document (not a Framework Asset; not an ADR) |
 | Lifecycle | Temporary — Alpha evaluation packaging; expected to evolve or be replaced before Framework 1.0 |
@@ -22,6 +22,25 @@ disagree, the Accepted ADRs and labelled Framework Assets are authoritative.**
 
 This guide helps an experienced software team **evaluate** the AI Software
 Development Framework on a **real project** under **Framework 0.7 Alpha**.
+
+**Where you are in the journey**
+
+```text
+README (official Framework starting point)
+        │
+        ▼
+This Adoption Guide (practical first-time evaluation path)
+        │
+        ▼
+Framework Invocation Guide (after Project Integration)
+        │
+        ▼
+Local Project Entry (authoritative root on the consuming project)
+```
+
+You should reach this page from the repository [README](../../README.md). This
+guide is the **singular practical path** for first-time Alpha evaluation — not
+a second Framework starting point beside FA-003, the whitepaper, or Invocation.
 
 **Core responsibility:**
 
@@ -242,12 +261,18 @@ session discipline after adoption.
 ## Relationship summary
 
 ```text
-Alpha Adoption Guide (temporary)
+README (official Framework starting point)
+        │
+        ▼
+Alpha Adoption Guide (temporary practical path)
         │
         │  establish Project Integration
         │  + first Framework-governed change
         ▼
 Framework Invocation Guide (permanent)
+        │
+        ▼
+Local Project Entry (consuming-project root)
         │
         ▼
 day-to-day Framework-governed work

@@ -4,7 +4,7 @@
 | --------- | ----- |
 | Document | Framework Invocation Guide |
 | Classification | Informative / Reference |
-| Status | Draft — awaiting publication approval |
+| Status | Published (Alpha packaging) |
 | Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
 | Kind | Official Framework document (not a Framework Asset; not an ADR) |
 
@@ -63,8 +63,12 @@ This guide is intended for:
 
 **Project Integration must already exist** before this guide applies. If the
 project has not yet established pin, Local Project Entry, and Project Policy,
-complete Project Integration (and any Alpha Adoption packaging) first — then
-return here.
+start at the repository [README](../README.md) and follow the
+[Framework 0.7 Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md)
+first — then return here.
+
+This guide is **not** the Framework starting point and **not** a first-time
+adoption path.
 
 ---
 
@@ -246,14 +250,18 @@ Effective Classification still determines what executes.*
 ### Document map
 
 ```text
-README
-  ├── Whitepaper
-  ├── Alpha Adoption Guide (when published)
+README (official Framework starting point)
+  ├── Whitepaper / FA-003 / FA-002 (orientation depth)
+  ├── Alpha Adoption Guide (singular practical first-time path)
   │         │
   │         ▼
-  │   Framework Invocation Guide
+  │   Framework Invocation Guide (this document)
+  │         │
+  │         ▼
+  │   Local Project Entry (consuming-project root)
   │
   └──► Framework Invocation Guide
+         (only when Project Integration already exists)
 ```
 
 ### Operational session (conceptual)

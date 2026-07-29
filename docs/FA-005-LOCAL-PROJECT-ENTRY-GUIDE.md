@@ -96,11 +96,23 @@ a stable `docs/` / `.framework/` path declared once and not duplicated.
 
 *Informative.*
 
-After reading [FA-003 (Framework Overview)](./FA-003-FRAMEWORK-OVERVIEW.md)
-and pinning via [FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md), create the
-Entry from [FA-006](./FA-006-LOCAL-PROJECT-ENTRY-TEMPLATE.md), link
+**Framework repository discovery** starts at the
+[README](../README.md) (official Framework starting point). First-time Alpha
+evaluation follows the
+[Framework 0.7 Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md)
+— not a parallel path from this guide alone.
+
+**Once Project Integration is underway:** pin via
+[FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md), create the Entry from
+[FA-006](./FA-006-LOCAL-PROJECT-ENTRY-TEMPLATE.md), link
 [FA-007](./FA-007-MINIMAL-PROJECT-POLICY-STARTER.md), then confirm with
-[FA-008](./FA-008-GREENFIELD-INITIALISATION-CHECKLIST.md).
+[FA-008](./FA-008-GREENFIELD-INITIALISATION-CHECKLIST.md). Orientation depth
+may include [FA-003 (Framework Overview)](./FA-003-FRAMEWORK-OVERVIEW.md).
+
+After Integration exists, this Entry — not the Framework repository README —
+is the authoritative discovery root for humans and agents. Prefer pointing
+agent instructions at the
+[Framework Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md).
 
 Thin Entry keeps Framework law in the pin and project law in Project Policy.
 

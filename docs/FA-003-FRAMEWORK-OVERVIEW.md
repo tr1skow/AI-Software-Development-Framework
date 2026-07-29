@@ -125,19 +125,28 @@ Project Entry and pinned Baseline.
 
 *Informative.*
 
-1. Skim this Overview for the map.
-2. Read [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md) for methodological
-   principles.
-3. Use [Accepted ADRs](./adr/) when you need architectural decision detail.
-4. Apply [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md)
+1. Treat the [README](../README.md) as the **single official Framework starting
+   point** (landing status and navigation) — not law.
+2. For first-time Alpha evaluation on a real project, follow the
+   [Framework 0.7 Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md)
+   — not a parallel path invented from this Overview.
+3. Skim this Overview for the architectural map (orientation depth).
+4. Read [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md) for methodological
+   principles when needed.
+5. Use [Accepted ADRs](./adr/) when you need architectural decision detail.
+6. Apply [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md)
    when reading or writing Framework assets.
-5. Treat the [README](../README.md) as landing status and navigation — not law.
-6. Use the README Documentation map to distinguish Framework Assets / ADRs from
+7. After Project Integration exists, use the
+   [Framework Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md) for session
+   discipline; on the consuming project, the Local Project Entry is the
+   discovery root ([FA-005](./FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md)).
+8. Use the README Documentation map to distinguish Framework Assets / ADRs from
    Informative stewardship surfaces such as the Evolution Backlog and
    `docs/research/` (not pin content by default).
 
-Import procedures (Entry template, pinning how-to, Agent Pack, Getting
-Started) are construction phases after E2 and are not defined here.
+This Overview is **not** an alternate starting path. Import procedures (Entry
+template, pinning how-to, Agent Pack, Getting Started) are owned by adoption
+packaging and Project Integration assets — not defined here as a second start.
 
 ---
 

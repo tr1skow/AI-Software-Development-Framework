@@ -4,11 +4,17 @@ A vendor-neutral, importable framework for disciplined collaboration between
 humans and AI agents on real software projects — greenfield, brownfield, and
 modernisation alike.
 
-This repository is the public home of that Framework. This README is a
-**human landing page**. It summarises status and points to authoritative
-documents. It is **not** Framework law, not a Local Project Entry, not an
-agent instruction root, and not a substitute for the Framework Assets or the
+This repository is the public home of that Framework. This README is the
+**single official Framework starting point** — a human landing hub. It
+summarises status and points to authoritative documents. It is **not**
+Framework law, not a Local Project Entry, not an agent instruction root, and
+not a substitute for the Framework Assets or the
 [whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md).
+
+**Practical next step for first-time evaluation:** follow the
+[Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md).
+Do not treat FA-003, the whitepaper, or the Invocation Guide as alternate
+starting paths.
 
 ### Framework documentation map
 
@@ -169,18 +175,25 @@ self-evolution by default, and **not** a production-ready, Beta, or Framework
 
 ## Where to start
 
-1. Read [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md).
-2. Read [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md).
-3. Skim [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md).
-4. Initialise with [FA-004](docs/FA-004-PINNING-AND-BASELINE-GUIDE.md) through
-   [FA-008](docs/FA-008-GREENFIELD-INITIALISATION-CHECKLIST.md).
-5. Classify with [FA-009](docs/FA-009-CHANGE-CLASSIFICATION-GUIDE.md) /
-   [FA-010](docs/FA-010-CLASSIFICATION-RECORD-TEMPLATE.md); use Discovery,
-   Decision Support, Planning, Implementation, and the Acceptance Chain as
-   bound.
-6. Consult [ADR-001](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md) through
-   [ADR-004](docs/adr/ADR-004-AGENT-INTERACTION-MODEL.md) for architectural
-   authority.
+**One practical path.** Do not follow a parallel checklist from this README.
+
+1. **Evaluate / adopt (first-time):** follow the
+   [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md).
+   It owns establishing Project Integration and completing the first
+   Framework-governed change.
+2. **Day-to-day after Integration:** use the
+   [Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md).
+3. **On a consuming project:** the
+   [Local Project Entry](docs/FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md) is the
+   authoritative discovery root for humans and AI agents — not this README.
+
+**Orientation depth (optional — not alternate starts):**
+
+- [FA-003 (Framework Overview)](docs/FA-003-FRAMEWORK-OVERVIEW.md) — Framework map
+- [FA-002 (Method Spine)](docs/FA-002-METHOD-SPINE.md) — Method principles
+- [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) — architecture narrative
+- [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) — milestone wording
+- [ADR-001](docs/adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md)–[ADR-004](docs/adr/ADR-004-AGENT-INTERACTION-MODEL.md) — architectural authority
 
 This is not a complete Getting Started import procedure.
 
@@ -288,13 +301,14 @@ project.
 
 ## Framework 0.7 Alpha Adoption
 
-To evaluate the Framework on a real project under **Framework 0.7 Alpha**, see the
+**Singular practical path after this README** for first-time evaluation:
+
 [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md).
 
 It is a temporary **Informative / Reference** evaluation guide: establish Project
 Integration and complete a first Framework-governed change, then hand off to the
 Framework Invocation Guide. It is not Framework law, not a production onboarding
-kit, and not a permanent Getting Started.
+kit, not a permanent Getting Started, and not a second Framework starting point.
 
 ---
 
@@ -308,7 +322,7 @@ It is the permanent **Informative / Reference** operational reference for humans
 and AI assistants: discover governance roots, follow the Effective
 Classification, invoke only bound capabilities, apply Stop and Human Authority,
 and record required outcomes. It is not Framework law, not Runtime definition,
-and not an Alpha Adoption Guide.
+not an Alpha Adoption Guide, and not the Framework starting point.
 
 ---
 
@@ -319,8 +333,9 @@ and not an Alpha Adoption Guide.
 | [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
 | Framework Assets above | Published product content (`FA-###`) |
 | [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative / Reference architectural narrative (Framework 0.7 Alpha) |
-| [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) | Informative / Reference temporary Alpha evaluation adoption path |
+| [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) | Informative / Reference temporary Alpha evaluation path — **singular practical next step** from this README |
 | [Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md) | Informative / Reference permanent operational reference (after Project Integration) |
+| [Stewardship — Single Starting Point](docs/research/FRAMEWORK-STEWARDSHIP-SINGLE-STARTING-POINT.md) | Informative / Research navigation model for Framework Stewardship — **not** Framework law |
 | [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Governance milestone declaration |
 | [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance |
 | [Allocation log](docs/governance/FRAMEWORK-ASSET-ALLOCATION-LOG.md) | `FA-###` allocation state |
