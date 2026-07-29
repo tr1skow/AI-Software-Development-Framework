@@ -152,13 +152,13 @@ the list.
 | Field | Value |
 | ----- | ----- |
 | **Title** | Published Consumer Baseline (Versioning Strategy) |
-| **Status** | Candidate |
+| **Status** | Ready for Investigation |
 | **Origin** | ADR-002 defines Baseline pinning/versioning architecture; README / M2 / whitepaper repeatedly record that a published public consumer Baseline does not yet exist; Alpha uses construction pins. |
-| **Problem Statement** | Architectural versioning rules exist; the publication and consumer-facing Baseline surface for non-construction adopters does not. Claim honesty for 1.0 depends on this gap closing defensibly. |
-| **Expected Investigation Type** | Design Investigation and/or Engineering Review against ADR-002; implementation only after claim defensibility is clear. |
-| **Expected Value** | Reduce uncertainty about when and how a public consumer Baseline can be published without silent upstream drift or false 1.0 claims. |
-| **Current Priority** | Medium |
-| **Notes** | [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md); README maturity table; M2 non-claims. Architecture for pinning is Accepted — this candidate is about **publication/consumer surface**, not reopening ADR-002 casually. |
+| **Problem Statement** | Architectural versioning rules exist; the publication and consumer-facing Baseline surface for non-construction adopters does not. Claim honesty for 1.0 depends on this gap closing defensibly. Consumer surface clarity (what is offering vs research) is also insufficient as research docs proliferate. |
+| **Expected Investigation Type** | Near term: Informative consumer-surface clarity via existing docs (Option D). Later: claim-gated ADR-002 Baseline identity publication. Engineering Review before any publication claim. |
+| **Expected Value** | Reduce uncertainty about what adopters should pin/ignore now, and when/how a public consumer Baseline can be published without silent upstream drift or false 1.0 claims. |
+| **Current Priority** | High |
+| **Notes** | [Design Investigation](./research/DESIGN-INVESTIGATION-PUBLISHED-CONSUMER-BASELINE.md) (**Option D**: surface clarity now; Baseline identity later — do not title Alpha docs as the PCB). [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md); README maturity table; M2 non-claims. |
 
 ---
 
@@ -241,6 +241,7 @@ Accepted architecture):
 | Date | Change |
 | ---- | ------ |
 | 2026-07-29 | Initial backlog created from Alpha/M2 documentation and the ecosystem / evolution research track |
+| 2026-07-29 | Item 7 updated after Design Investigation (Option D); status → Ready for Investigation; priority → High |
 
 ---
 
