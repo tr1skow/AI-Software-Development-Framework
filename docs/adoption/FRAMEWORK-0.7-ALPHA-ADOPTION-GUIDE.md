@@ -213,6 +213,10 @@ Capture structured feedback (for example a repository issue). Useful questions:
 Feedback informs Framework evolution. It does not authorize forking Method or
 Core meaning in the consuming project.
 
+Framework-relevant lessons from evaluation may be recorded as candidates on the
+[Evolution Backlog](../FRAMEWORK-EVOLUTION-BACKLOG.md) (Informative only — not
+a commitment and not Framework law).
+
 ---
 
 ## 7. Next steps

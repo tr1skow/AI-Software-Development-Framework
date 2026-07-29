@@ -89,6 +89,13 @@ identity explicitly in the Entry. That interim pin must still obey the
 Normative Framework rules above. It is not a substitute for later published
 Baseline discipline.
 
+*Informative.* Construction pins cover the **normative set** described above.
+They do **not** include `docs/research/`, the
+[Evolution Backlog](./FRAMEWORK-EVOLUTION-BACKLOG.md), or other stewardship /
+investigation material, unless a future published Baseline explicitly includes
+them. Those documents are Informative research/stewardship surfaces — not
+consumer pin content by default.
+
 ---
 
 ## Day 0 placement

@@ -88,14 +88,14 @@ or commitments to act when evidence appears.
 | Field | Value |
 | ----- | ----- |
 | **Title** | Framework Evolution Process Discoverability |
-| **Status** | Ready for Investigation |
+| **Status** | Completed |
 | **Origin** | Observation that product-evolution rules already exist (FA-002 Amendment, ADR-002, FAIS) but README Contributing does not point to them; investigated in the Framework Evolution Process Design Investigation. |
 | **Problem Statement** | Contributors must reverse-engineer how Method, ADRs, Assets, and Baselines change. Substance exists; the Informative map is thin. |
 | **Expected Investigation Type** | Lightweight Informative integration into existing surfaces (especially README Contributing), per Option D — not a new mandatory process. |
 | **Expected Value** | Reduce contributor uncertainty about *existing* product-evolution authorities without inventing approval stages or freezing research habits. |
-| **Current Priority** | High |
-| **Maturity Trigger** | **Already met.** README Contributing still lacks pointers to FA-002 Amendment, ADR-002, and FAIS while `docs/research/` and this backlog exist as parallel evolution surfaces; Design Investigation Option D recorded the discoverability gap as the stable part to fix first. |
-| **Notes** | [Design Investigation — Framework Evolution Process](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) (**Option D**). Explicitly separates this from prescribing the investigative activity chain. |
+| **Current Priority** | Low |
+| **Maturity Trigger** | **Met and closed** via README Contributing pointers (Alpha Merge Readiness). |
+| **Notes** | [Design Investigation — Framework Evolution Process](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) (**Option D**). Reflected in README Contributing + Documentation map (PR #2 merge readiness). Dedicated evolution-process overview remains Deferred (item 10). |
 
 ---
 
@@ -173,9 +173,9 @@ or commitments to act when evidence appears.
 | **Problem Statement** | Architectural versioning rules exist; the publication and consumer-facing Baseline surface for non-construction adopters does not. Claim honesty for 1.0 depends on this gap closing defensibly. Consumer surface clarity (what is offering vs research) is also insufficient as research docs proliferate. |
 | **Expected Investigation Type** | Near term: Informative consumer-surface clarity via existing docs (Option D). Later: claim-gated ADR-002 Baseline identity publication. Engineering Review before any publication claim. |
 | **Expected Value** | Reduce uncertainty about what adopters should pin/ignore now, and when/how a public consumer Baseline can be published without silent upstream drift or false 1.0 claims. |
-| **Current Priority** | High |
-| **Maturity Trigger** | **Near-term surface clarity — already met:** research investigations, Evolution Backlog, and Informative guides now sit beside Assets/ADRs while README still says no published consumer Baseline; Design Investigation Option D recorded adopter confusion risk. **Baseline identity publication — not yet met;** timely when (a) two or more adopters pin different construction commits and disagree about Normative membership; (b) a concrete proposal claims a public consumer Baseline identity without ADR-002 metadata/pin-content completeness; or (c) maturity-claim discussion requires a knowable Baseline identity to remain honest. |
-| **Notes** | [Design Investigation](./research/DESIGN-INVESTIGATION-PUBLISHED-CONSUMER-BASELINE.md) (**Option D**: surface clarity now; Baseline identity later — do not title Alpha docs as the PCB). [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md); README maturity table; M2 non-claims. |
+| **Current Priority** | Medium |
+| **Maturity Trigger** | **Near-term surface clarity — closed** via README Documentation map + FA-004 construction-pin exclusions (Alpha Merge Readiness). **Baseline identity publication — not yet met;** timely when (a) two or more adopters pin different construction commits and disagree about Normative membership; (b) a concrete proposal claims a public consumer Baseline identity without ADR-002 metadata/pin-content completeness; or (c) maturity-claim discussion requires a knowable Baseline identity to remain honest. |
+| **Notes** | [Design Investigation](./research/DESIGN-INVESTIGATION-PUBLISHED-CONSUMER-BASELINE.md) (**Option D**). Near-term clarity reflected in README + FA-004; Baseline identity publication remains later. |
 
 ---
 
@@ -282,6 +282,7 @@ Accepted architecture):
 | 2026-07-29 | Added Maturity Trigger to all items (observable evidence only; no dates or commitments) |
 | 2026-07-29 | Item 8 updated after Release Communication Design Investigation (Option D); status → Ready for Investigation |
 | 2026-07-29 | Item 12 added (Framework Case Studies) after Design Investigation (Option D); status Deferred |
+| 2026-07-29 | Items 2 completed and 7 near-term clarity closed via Alpha Merge Readiness (README + FA-004) |
 
 ---
 

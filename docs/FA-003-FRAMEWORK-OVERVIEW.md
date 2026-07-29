@@ -132,6 +132,9 @@ Project Entry and pinned Baseline.
 4. Apply [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md)
    when reading or writing Framework assets.
 5. Treat the [README](../README.md) as landing status and navigation — not law.
+6. Use the README Documentation map to distinguish Framework Assets / ADRs from
+   Informative stewardship surfaces such as the Evolution Backlog and
+   `docs/research/` (not pin content by default).
 
 Import procedures (Entry template, pinning how-to, Agent Pack, Getting
 Started) are construction phases after E2 and are not defined here.
