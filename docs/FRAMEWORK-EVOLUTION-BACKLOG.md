@@ -243,6 +243,22 @@ or commitments to act when evidence appears.
 
 ---
 
+### 12. Framework Case Studies
+
+| Field | Value |
+| ----- | ----- |
+| **Title** | Framework Case Studies |
+| **Status** | Deferred |
+| **Origin** | Gap between RI “informs Framework evolution” posture and lack of Framework-owned learning narrative; investigated in Framework Case Studies Design Investigation. |
+| **Problem Statement** | RIs exercise the Framework but do not automatically leave a durable Framework research record of application learning distinct from product diaries and Normative law. |
+| **Expected Investigation Type** | Optional Informative Case Study authoring only after Option D intake (backlog / investigations) demonstrably fails to preserve narrative learning — or when multi-RI comparison is needed. |
+| **Expected Value** | Would reduce loss of application narrative — without making Case Studies mandatory RI outputs. |
+| **Current Priority** | Low |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) Framework-relevant lessons from an official RI are re-discovered because backlog/issues lacked durable narrative context; (b) a second RI exists and comparison of application learning is needed; (c) maintainers cannot separate Framework gaps from product-local choices without a citable learning note. Until then, use Evolution Backlog origins + proportionate investigations (Option D). |
+| **Notes** | [Design Investigation — Framework Case Studies](./research/DESIGN-INVESTIGATION-FRAMEWORK-CASE-STUDIES.md) (**Option D**). Related: backlog items 3–4, 11; whitepaper Ch. 10 feedback role. |
+
+---
+
 ## Intentionally not listed
 
 The following were considered and **not** added for lack of sufficient distinct
@@ -265,6 +281,7 @@ Accepted architecture):
 | 2026-07-29 | Item 7 updated after Design Investigation (Option D); status → Ready for Investigation; priority → High |
 | 2026-07-29 | Added Maturity Trigger to all items (observable evidence only; no dates or commitments) |
 | 2026-07-29 | Item 8 updated after Release Communication Design Investigation (Option D); status → Ready for Investigation |
+| 2026-07-29 | Item 12 added (Framework Case Studies) after Design Investigation (Option D); status Deferred |
 
 ---
 
