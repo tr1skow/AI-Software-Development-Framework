@@ -83,18 +83,42 @@ remain allowed when they meet the Normative Framework rules above.
 
 **During Framework Construction** (before a separately published consumer
 Baseline identity exists), a project may pin a known commit or snapshot of
-*this* Framework repository’s normative set (Method, Overview, labelling,
-Accepted ADRs, and Project Integration assets once published), recording that
-identity explicitly in the Entry. That interim pin must still obey the
-Normative Framework rules above. It is not a substitute for later published
-Baseline discipline.
+*this* Framework repository’s **normative set**, recording that identity
+explicitly in the Local Project Entry. That interim pin must still obey the
+Normative Framework rules above. It is **not** a published consumer Baseline
+identity and is not a substitute for later published Baseline discipline.
 
-*Informative.* Construction pins cover the **normative set** described above.
-They do **not** include `docs/research/`, the
-[Evolution Backlog](./FRAMEWORK-EVOLUTION-BACKLOG.md), or other stewardship /
-investigation material, unless a future published Baseline explicitly includes
-them. Those documents are Informative research/stewardship surfaces — not
-consumer pin content by default.
+### Alpha construction-pin membership (Framework 0.7 Alpha)
+
+*Informative.* This table orients adopters and AI agents on what to treat as
+pin material under Alpha. It is **not** a published Baseline manifest, **not**
+a new Normative catalogue, and **not** an exact-file claim beyond ADR-002’s
+minimum pin-content **kinds**. If a future published Baseline supersedes this
+guidance, that Baseline wins.
+
+| Include in the construction pin | Role |
+| ------------------------------- | ---- |
+| [FA-001](./FA-001-NORMATIVE-LABELLING-CONVENTION.md)–[FA-024](./FA-024-DISCOVERY-OUTCOME-TEMPLATE.md) | Active Framework Assets — Method, Overview, Project Integration, and Runtime capability guides/templates |
+| [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md)–[ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) | Accepted Architecture Decision Records (architectural law / offline carriers for the pin) |
+
+| Do **not** treat as Normative pin content | Role |
+| ----------------------------------------- | ---- |
+| [README](../README.md) | Human landing hub — not Framework law |
+| [Whitepaper](./whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative architectural narrative |
+| [Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) | Temporary evaluation packaging |
+| [Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md) | Informative operational session discipline |
+| [Evolution Backlog](./FRAMEWORK-EVOLUTION-BACKLOG.md) | Stewardship candidates — not commitment, not law |
+| `docs/research/` | Investigations, reviews, and observational notes |
+| [FAIS](./governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md), [Allocation log](./governance/FRAMEWORK-ASSET-ALLOCATION-LOG.md), [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Framework-repo stewardship / milestone bookkeeping — not adopter Runtime pin content |
+| Fitness Challenge Platform / other RI material | Validates the Framework; not Framework law |
+
+Record the chosen commit or offline-resolvable snapshot identity in the Local
+Project Entry. Do **not** float on upstream `main`. Prefer vendoring (or
+another offline mechanism) for the **include** set above.
+
+Unless a future published Baseline explicitly includes them, research and
+stewardship surfaces in the exclusion table remain out of consumer pin
+expectations by default.
 
 ---
 

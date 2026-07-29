@@ -99,6 +99,12 @@ Under Alpha there is **no** published public consumer Baseline. Use FA-004’s
 repository’s normative set, recorded explicitly in the Local Project Entry.
 Do not float on upstream `main`.
 
+For what belongs in that normative set versus research/stewardship exclusions,
+use FA-004’s **Alpha construction-pin membership** table (FA-001–024 and
+ADR-001–004 in; README, whitepaper, Adoption/Invocation packaging,
+`docs/research/`, Evolution Backlog, and repo governance bookkeeping out).
+Do not treat research or backlog material as Framework law.
+
 ### 3.2 Create a Local Project Entry
 
 Follow [FA-005 (Local Project Entry Guide)](../FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md)
