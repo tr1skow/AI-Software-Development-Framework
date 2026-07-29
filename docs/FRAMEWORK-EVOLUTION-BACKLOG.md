@@ -30,6 +30,10 @@ or implementation experience.
 Only **evidence-backed** candidates belong here. Do not invent topics to fill
 the list.
 
+For each item, **Maturity Trigger** records observable evidence that would make
+further investigation timely. Triggers are **not** dates, milestones to force,
+or commitments to act when evidence appears.
+
 ---
 
 ## Status values
@@ -52,6 +56,12 @@ the list.
 3. Keep Problem Statement and Expected Value about **uncertainty**, not delivery
    promises.
 4. Never treat priority as a commitment.
+5. Write **Maturity Trigger** as concrete, observable evidence (documents that
+   exist, behaviours seen, conflicts reported) — not “when appropriate” and not
+   calendar targets.
+6. When status is **Ready for Investigation**, the trigger should state what
+   evidence **already** made the item timely (and any remaining evidence needed
+   for a later phase, if split).
 
 ---
 
@@ -68,6 +78,7 @@ the list.
 | **Expected Investigation Type** | Informative authoring follow-through after Architecture Decision Investigation (Option B: single thin Informative non-Asset overview page). Not an ADR; not an `FA-###`. |
 | **Expected Value** | Reduce ambiguity about what is Framework product vs adjacent domains, without expanding Normative surface or creating governance/roles. |
 | **Current Priority** | High |
+| **Maturity Trigger** | **Already met.** Repository now holds coexisting Framework Assets, ADRs, Informative guides, `docs/research/` investigations, Evolution Backlog, and RI citations; three completed investigations recommend Option B. Further authoring is timely while readers can still confuse research/stewardship material with Normative product. Revisit scope only if a published consumer Baseline identity later changes what “product surface” means. |
 | **Notes** | [Design Investigation](./research/DESIGN-INVESTIGATION-ECOSYSTEM-AND-GOVERNANCE-MODEL.md) (justified); [Engineering Review](./research/ENGINEERING-REVIEW-ECOSYSTEM-AND-GOVERNANCE-MODEL.md) (ready after refinement); [Representation Investigation](./research/ARCHITECTURE-DECISION-INVESTIGATION-ECOSYSTEM-REPRESENTATION.md) (**Option B**). Page not authored yet. |
 
 ---
@@ -83,6 +94,7 @@ the list.
 | **Expected Investigation Type** | Lightweight Informative integration into existing surfaces (especially README Contributing), per Option D — not a new mandatory process. |
 | **Expected Value** | Reduce contributor uncertainty about *existing* product-evolution authorities without inventing approval stages or freezing research habits. |
 | **Current Priority** | High |
+| **Maturity Trigger** | **Already met.** README Contributing still lacks pointers to FA-002 Amendment, ADR-002, and FAIS while `docs/research/` and this backlog exist as parallel evolution surfaces; Design Investigation Option D recorded the discoverability gap as the stable part to fix first. |
 | **Notes** | [Design Investigation — Framework Evolution Process](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) (**Option D**). Explicitly separates this from prescribing the investigative activity chain. |
 
 ---
@@ -98,6 +110,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation (possibly followed by Engineering Review). |
 | **Expected Value** | Reduce uncertainty about evidence thresholds and validation posture while keeping evaluation voluntary and separated from adoption. |
 | **Current Priority** | Medium |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) two or more independent Alpha evaluation feedback reports disagree on what would count as “validated”; (b) maintainers face a concrete proposal to declare Beta/1.0 and cannot point to shared evidence criteria; (c) RI success is cited as proof of Framework correctness in conflict with published non-claims. |
 | **Notes** | See ecosystem Design Investigation Open Questions 3 and 5; Engineering Review warns against launching a Validation Program from justification alone. Related: [Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md); [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md). |
 
 ---
@@ -113,6 +126,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation and/or Architecture Decision Investigation (representation/placement only — not RI product design). |
 | **Expected Value** | Reduce uncertainty about how RIs scale beyond the first official project while preserving Examples Are Not Norms and Core independence from reference projects. |
 | **Current Priority** | Medium |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) a second project is proposed or treated as an official or de facto Reference Implementation; (b) an external project’s local practices are copied into Framework Normative proposals because “the RI does it that way”; (c) maintainers cannot classify incoming RI feedback as Framework gap vs product-local choice. |
 | **Notes** | [Whitepaper Ch. 10](./whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md); [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md); ecosystem Design Investigation §4 and Open Question 2. |
 
 ---
@@ -128,6 +142,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation (experience and packaging boundaries); later Informative authoring only if justified. |
 | **Expected Value** | Reduce uncertainty about what a new organisation should experience at Alpha vs Beta vs 1.0 without raising adoption ceremony. |
 | **Current Priority** | Medium |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) two or more organisations complete (or attempt) the Alpha Adoption Guide and report the same onboarding confusion; (b) newcomers repeatedly treat the Alpha Adoption Guide as permanent Getting Started despite its temporary banner; (c) consumer-surface clarity work (item 7) exposes unresolved adoption-path gaps that construction-pin docs cannot answer. |
 | **Notes** | [Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md); [Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md); ecosystem Design Investigation §6; README maturity / 1.0 positioning. |
 
 ---
@@ -143,6 +158,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation; possibly Architecture Decision Investigation if Core/ADR boundaries are affected (unlikely if kept as Informative packaging). |
 | **Expected Value** | Reduce uncertainty about how agents receive Framework context without violating tool neutrality or creating a prompt-pack Framework. |
 | **Current Priority** | Medium |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) repeated AI-agent sessions invent a rival instruction root despite Local Project Entry + Invocation Guide; (b) two or more independent tool/prompt packs package conflicting Framework context; (c) multiple Alpha/RI reports show agents skipping governance-root discovery as a recurring failure mode. |
 | **Notes** | [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md); [Invocation Guide §9](./FRAMEWORK-INVOCATION-GUIDE.md); [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) (Agent Collaboration packaging); README 1.0 Agent Pack positioning. |
 
 ---
@@ -158,6 +174,7 @@ the list.
 | **Expected Investigation Type** | Near term: Informative consumer-surface clarity via existing docs (Option D). Later: claim-gated ADR-002 Baseline identity publication. Engineering Review before any publication claim. |
 | **Expected Value** | Reduce uncertainty about what adopters should pin/ignore now, and when/how a public consumer Baseline can be published without silent upstream drift or false 1.0 claims. |
 | **Current Priority** | High |
+| **Maturity Trigger** | **Near-term surface clarity — already met:** research investigations, Evolution Backlog, and Informative guides now sit beside Assets/ADRs while README still says no published consumer Baseline; Design Investigation Option D recorded adopter confusion risk. **Baseline identity publication — not yet met;** timely when (a) two or more adopters pin different construction commits and disagree about Normative membership; (b) a concrete proposal claims a public consumer Baseline identity without ADR-002 metadata/pin-content completeness; or (c) maturity-claim discussion requires a knowable Baseline identity to remain honest. |
 | **Notes** | [Design Investigation](./research/DESIGN-INVESTIGATION-PUBLISHED-CONSUMER-BASELINE.md) (**Option D**: surface clarity now; Baseline identity later — do not title Alpha docs as the PCB). [ADR-002](./adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md); README maturity table; M2 non-claims. |
 
 ---
@@ -173,6 +190,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation (Informative pattern only). |
 | **Expected Value** | Reduce uncertainty about communicating Framework changes without creating release bureaucracy or overselling maturity. |
 | **Current Priority** | Low |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) README/maturity wording and a Baseline-identity or Asset publication announcement disagree about what changed; (b) the first published consumer Baseline identity (item 7 later phase) needs an external announcement and no shared non-claims checklist exists; (c) two consecutive Framework updates produce conflicting “what adopters must do” messages. |
 | **Notes** | [Design Investigation — Framework Evolution Process](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) (Open Question 4). Depends partly on Published Consumer Baseline candidate. |
 
 ---
@@ -188,6 +206,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation and/or Engineering Review of existing Stop surfaces before any Asset churn. |
 | **Expected Value** | Reduce uncertainty about whether Stop behaviour is coherent enough for Beta-scale trial without expanding ceremony. |
 | **Current Priority** | Medium |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) two or more independent Alpha/RI sessions miss or invent Stop behaviour when material unknowns appear; (b) reviewers cite inconsistent Stop instructions across capability Assets as a recurring defect; (c) a Beta-claim discussion treats fragmented Stop packaging as blocking evidence for broader trial. |
 | **Notes** | README 0.7 Beta positioning; [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md); whitepaper planned expansion / Beta notes. |
 
 ---
@@ -203,6 +222,7 @@ the list.
 | **Expected Investigation Type** | Revisit via Design Investigation only after product-evolution discoverability is improved and/or investigative patterns repeat across multiple concerns. |
 | **Expected Value** | Would reduce uncertainty about exploratory research habits — but only once those habits are evidenced as stable. |
 | **Current Priority** | Low |
+| **Maturity Trigger** | Timely only when **all** of these hold: (a) item 2 discoverability pointers exist in README Contributing (or equivalent); (b) at least two additional investigation tracks outside the ecosystem series reuse the same activity kinds (for example Design Investigation → Engineering Review) without being forced to; (c) contributors still ask where the evolution “process” lives after those pointers exist. Until then, keep deferred. |
 | **Notes** | Explicitly **deferred** by [Design Investigation — Framework Evolution Process](./research/DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) (Option D now; Option B later). |
 
 ---
@@ -218,6 +238,7 @@ the list.
 | **Expected Investigation Type** | Design Investigation (only if informal capture fails at scale). |
 | **Expected Value** | Would reduce loss of observations — at the cost of new structure; deferred to preserve minimal governance. |
 | **Current Priority** | Low |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) the same observation reappears as a new investigation because prior notes could not be found; (b) two stewards independently cannot locate prior Alpha/RI feedback that affected a Framework change; (c) this Evolution Backlog repeatedly fails as a sufficient home for candidate-level memory and raw observations are being lost. Until informal capture (issues, research docs, backlog) demonstrably fails, keep deferred. |
 | **Notes** | Ecosystem Design Investigation Open Question 5; Engineering Review warns against creating Observation Catalogues from justification alone. This backlog itself is a lighter Informative alternative for *evolution candidates*, not raw observations. |
 
 ---
@@ -242,6 +263,7 @@ Accepted architecture):
 | ---- | ------ |
 | 2026-07-29 | Initial backlog created from Alpha/M2 documentation and the ecosystem / evolution research track |
 | 2026-07-29 | Item 7 updated after Design Investigation (Option D); status → Ready for Investigation; priority → High |
+| 2026-07-29 | Added Maturity Trigger to all items (observable evidence only; no dates or commitments) |
 
 ---
 
