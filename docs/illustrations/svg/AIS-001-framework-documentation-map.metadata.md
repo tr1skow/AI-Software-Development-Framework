@@ -4,7 +4,7 @@
 | ----- | ----- |
 | AIS ID | AIS-001 |
 | Title | Framework Documentation Map |
-| Framework version | Framework v0.2.0 |
+| Framework version | Framework v0.2.1 |
 | Illustration version | 1.0 |
 | Publication date | 2026-07-26 |
 | Status | Published |

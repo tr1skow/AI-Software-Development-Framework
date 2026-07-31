@@ -6,7 +6,7 @@
 | Type | Repository / documentation governance |
 | Classification | Informative / Reference (governance) |
 | Status | Draft — awaiting publication approval |
-| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.1; Runtime Foundation M2 |
 | Related | [FAIS](../governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md); [FA-001](../FA-001-NORMATIVE-LABELLING-CONVENTION.md); Whitepaper; README |
 
 This document is **repository and documentation governance**. It is **not** a
@@ -150,7 +150,7 @@ glyph without updating this standard.
   Stop, Human Authority, Project Integration, Runtime Execution Spine, etc.
 - Legend required when more than two relationship styles or more than three
   semantic colours appear.
-- Optional badge: “as of Framework v0.2.0” (or current baseline) — positioning
+- Optional badge: “as of Framework v0.2.1” (or current baseline) — positioning
   only, not a maturity claim engine.
 
 ---
@@ -266,7 +266,7 @@ containing) at least:
 | ----- | ------- |
 | AIS ID | AIS-001 |
 | title | Framework architectural layers |
-| Framework version | Framework v0.2.0 |
+| Framework version | Framework v0.2.1 |
 | illustration version | 1.0 |
 | publication date | YYYY-MM-DD |
 | status | Draft / Approved / Published / Deprecated |

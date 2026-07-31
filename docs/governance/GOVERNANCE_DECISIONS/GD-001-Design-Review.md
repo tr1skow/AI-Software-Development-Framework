@@ -4,7 +4,7 @@
 | --------- | ----- |
 | Governance Decision | GD-001 |
 | Title | Mandatory Design Review Before Implementation |
-| Status | Under Review |
+| Status | Accepted |
 | Classification | Governance Decision |
 | Product | AI Software Development Framework |
 | Related | [GOVERNANCE.md](../GOVERNANCE.md); [FA-002 (Method Spine)](../../FA-002-METHOD-SPINE.md); [FA-011 (Review Guide)](../../FA-011-REVIEW-GUIDE.md); [ADR-001](../../adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md)–[ADR-004](../../adr/ADR-004-AGENT-INTERACTION-MODEL.md); Whitepaper Ch. 10; Reference Implementation RI-001 (Fitness Challenge Platform) |
@@ -13,11 +13,15 @@
 
 ## Status
 
-Under Review
+Accepted
 
 Statuses follow the lightweight Governance Decision status model in
 [GOVERNANCE.md](../GOVERNANCE.md#status-model): Draft · Under Review ·
 Accepted · Superseded · Deprecated.
+
+Accepted as binding for the [Applicability](#applicability) stated below
+following Framework Evolution Assessment FEA-001 (governance completion;
+Framework v0.2.1).
 
 ---
 
@@ -74,9 +78,34 @@ Phase 6. That Design Review:
 - identified governance improvements
 - strengthened implementation quality before any code was written
 
+The originating Design Review records and subsequent Phase 6 governance
+artefacts reside in **RI-001 (Fitness Challenge Platform) repository and
+delivery history**. They are not duplicated in the Framework repository.
+This Decision summarises that origin for Framework stewardship; it does not
+invent additional historical evidence beyond what that RI history records.
+
 Under the [Framework First Principle](../GOVERNANCE.md#framework-first-principle),
 that evidence informs Framework evolution here; RI-001 does not redefine
 Framework governance directly.
+
+---
+
+## Bootstrap note (historical)
+
+*Historical clarification only — not an ongoing exception.*
+
+GD-001 represents the **bootstrap introduction** of mandatory Design Review for
+Framework evolution and official Reference Implementations.
+
+The Framework phase that first authored GD-001 and `GOVERNANCE.md` (v0.2.0)
+proceeded from RI-001 origin evidence and stewardship direction **without a
+prior Design Review under this Decision**, because the Decision did not yet
+exist as Accepted Framework governance.
+
+That bootstrap introduction is historical. It does **not** create a continuing
+waiver. Future Framework evolution within GD-001 applicability follows this
+Decision: a Design Review **shall** be performed before the implementation
+phase.
 
 ---
 

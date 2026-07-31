@@ -88,7 +88,7 @@ explicitly in the Local Project Entry. That interim pin must still obey the
 Normative Framework rules above. It is **not** a published consumer Baseline
 identity and is not a substitute for later published Baseline discipline.
 
-### Alpha construction-pin membership (Framework v0.2.0)
+### Alpha construction-pin membership (Framework v0.2.1)
 
 *Informative.* This table orients adopters and AI agents on what to treat as
 pin material under Alpha. It is **not** a published Baseline manifest, **not**

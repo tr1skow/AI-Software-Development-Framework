@@ -5,7 +5,7 @@
 | Document | Framework Evolution Backlog |
 | Classification | Informative / Reference |
 | Status | Living backlog — not a roadmap |
-| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.1; Runtime Foundation M2 |
 | Kind | Official Framework document (not a Framework Asset; not an ADR) |
 
 **This document is Informative only.** It is not Normative Method, not
@@ -271,7 +271,7 @@ or commitments to act when evidence appears.
 | **Expected Value** | Establish Design Review as an official governance activity; define evidence categories; record Framework First Principle. |
 | **Current Priority** | Low |
 | **Maturity Trigger** | **Met and closed** via [GD-001](./governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md) and [GOVERNANCE.md](./governance/GOVERNANCE.md). |
-| **Notes** | First Governance Decision generated from documented RI evidence under Framework First. Does not modify architecture, Runtime, or any Reference Implementation repository. |
+| **Notes** | First Governance Decision generated from documented RI evidence under Framework First. **Accepted** in Framework v0.2.1 after FEA-001 (origin evidence clarified; bootstrap note historical only). Does not modify architecture, Runtime, or any Reference Implementation repository. |
 
 ---
 
@@ -300,6 +300,7 @@ Accepted architecture):
 | 2026-07-29 | Item 12 added (Framework Case Studies) after Design Investigation (Option D); status Deferred |
 | 2026-07-29 | Items 2 completed and 7 near-term clarity closed via Alpha Merge Readiness (README + FA-004) |
 | 2026-07-31 | Item 13 completed: GD-001 Design Review + GOVERNANCE.md (RI-001 evidence; Framework First) |
+| 2026-07-31 | Item 13 acceptance completed: GD-001 → Accepted (FEA-001; Framework v0.2.1 governance completion) |
 
 ---
 

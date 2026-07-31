@@ -98,10 +98,14 @@ approved review.
 
 ---
 
-## Framework v0.2.0 — development baseline
+## Framework v0.2.1 — development baseline
 
-**Framework v0.2.0** is the **official development baseline** for continued
+**Framework v0.2.1** is the **official development baseline** for continued
 Framework evolution and for the Fitness Challenge Platform.
+
+Framework v0.2.0 introduced the governance foundation (including GD-001).
+Framework v0.2.1 completes that governance milestone by accepting GD-001 after
+FEA-001.
 
 It means the Runtime Execution Spine (and, as of M2, Discovery) is sufficiently
 complete to evolve the Framework and to run the first official reference
@@ -141,7 +145,8 @@ Local Project Entry like any consuming project.
 | --------- | ------- |
 | **Runtime Execution Spine Complete** | Spine capabilities published; spine CWP gaps closed (achieved before Discovery) |
 | **Runtime Foundation M2** | Spine complete **and** Discovery published/active; **no Runtime-essential ownership gaps remain** (**this declaration**) |
-| **Framework v0.2.0** | Official **development baseline** for Framework evolution and the Fitness Challenge reference implementation |
+| **Framework v0.2.0** | First Governance milestone; governance foundation and GD-001 introduced |
+| **Framework v0.2.1** | Official **development baseline**; GD-001 Accepted (governance completion after FEA-001) |
 | **Framework 0.7 Beta** | Broader trial maturity (e.g. Stop consolidation and stronger agent surface as preferred); not declared here |
 | **Framework 1.0** | Published consumer Baseline; importable kit / Getting Started; Agent Pack; stated adoption claims defensible; not declared here |
 
