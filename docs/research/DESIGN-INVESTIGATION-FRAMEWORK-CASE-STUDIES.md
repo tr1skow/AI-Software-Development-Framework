@@ -5,7 +5,7 @@
 | Document | Design Investigation — Framework Case Studies |
 | Classification | Informative / Research (investigation only) |
 | Status | Complete — recommendation recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Related | [Whitepaper Ch. 10](../whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md); [M2 Declaration](../governance/RUNTIME-FOUNDATION-M2-DECLARATION.md); [Evolution Backlog](../FRAMEWORK-EVOLUTION-BACKLOG.md); [Emerging Design Patterns](./EMERGING-DESIGN-PATTERNS.md); [Ecosystem Design Investigation](./DESIGN-INVESTIGATION-ECOSYSTEM-AND-GOVERNANCE-MODEL.md) |
 | Kind | Design investigation — **not** a Framework Asset, ADR, mandatory RI deliverable, or Case Study template |
 

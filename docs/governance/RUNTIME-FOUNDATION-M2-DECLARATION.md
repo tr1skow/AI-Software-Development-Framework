@@ -98,9 +98,9 @@ approved review.
 
 ---
 
-## Framework 0.7 Alpha — development baseline
+## Framework v0.2.0 — development baseline
 
-**Framework 0.7 Alpha** is the **official development baseline** for continued
+**Framework v0.2.0** is the **official development baseline** for continued
 Framework evolution and for the Fitness Challenge Platform.
 
 It means the Runtime Execution Spine (and, as of M2, Discovery) is sufficiently
@@ -141,7 +141,7 @@ Local Project Entry like any consuming project.
 | --------- | ------- |
 | **Runtime Execution Spine Complete** | Spine capabilities published; spine CWP gaps closed (achieved before Discovery) |
 | **Runtime Foundation M2** | Spine complete **and** Discovery published/active; **no Runtime-essential ownership gaps remain** (**this declaration**) |
-| **Framework 0.7 Alpha** | Official **development baseline** for Framework evolution and the Fitness Challenge reference implementation |
+| **Framework v0.2.0** | Official **development baseline** for Framework evolution and the Fitness Challenge reference implementation |
 | **Framework 0.7 Beta** | Broader trial maturity (e.g. Stop consolidation and stronger agent surface as preferred); not declared here |
 | **Framework 1.0** | Published consumer Baseline; importable kit / Getting Started; Agent Pack; stated adoption claims defensible; not declared here |
 

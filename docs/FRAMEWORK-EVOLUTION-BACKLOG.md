@@ -5,7 +5,7 @@
 | Document | Framework Evolution Backlog |
 | Classification | Informative / Reference |
 | Status | Living backlog — not a roadmap |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Kind | Official Framework document (not a Framework Asset; not an ADR) |
 
 **This document is Informative only.** It is not Normative Method, not

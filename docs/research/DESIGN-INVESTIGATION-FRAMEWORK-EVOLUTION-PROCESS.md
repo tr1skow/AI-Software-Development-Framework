@@ -5,7 +5,7 @@
 | Document | Design Investigation — Framework Evolution Process |
 | Classification | Informative / Research (investigation only) |
 | Status | Complete — recommendation recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Related | [Ecosystem Design Investigation](./DESIGN-INVESTIGATION-ECOSYSTEM-AND-GOVERNANCE-MODEL.md); [Engineering Review](./ENGINEERING-REVIEW-ECOSYSTEM-AND-GOVERNANCE-MODEL.md); [Ecosystem Representation Investigation](./ARCHITECTURE-DECISION-INVESTIGATION-ECOSYSTEM-REPRESENTATION.md) |
 | Kind | Design investigation — **not** a Framework Asset, ADR, Method amendment, governance rule, or process definition |
 

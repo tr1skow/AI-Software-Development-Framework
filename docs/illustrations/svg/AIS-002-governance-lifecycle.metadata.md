@@ -4,7 +4,7 @@
 | ----- | ----- |
 | AIS ID | AIS-002 |
 | Title | Governance Lifecycle |
-| Framework version | Framework 0.7 Alpha |
+| Framework version | Framework v0.2.0 |
 | Illustration version | 1.1 |
 | Publication date | 2026-07-31 |
 | Status | Published |

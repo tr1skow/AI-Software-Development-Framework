@@ -5,7 +5,7 @@
 | Document | Framework Stewardship — Single Official Starting Point |
 | Classification | Informative / Research (stewardship) |
 | Status | Complete — recommendations recorded; editorial updates applied on this branch |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Kind | Stewardship review — **not** a Design Investigation mandate, Asset, ADR, or governance change |
 
 **This review improves discoverability and onboarding navigation.** It does not

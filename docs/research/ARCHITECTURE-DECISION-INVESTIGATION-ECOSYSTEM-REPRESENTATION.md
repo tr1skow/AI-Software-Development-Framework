@@ -5,7 +5,7 @@
 | Document | Architecture Decision Investigation — Representation of Framework Ecosystem Architecture |
 | Classification | Informative / Research (investigation only) |
 | Status | Complete — representation recommendation recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Related | [Design Investigation](./DESIGN-INVESTIGATION-ECOSYSTEM-AND-GOVERNANCE-MODEL.md); [Engineering Review](./ENGINEERING-REVIEW-ECOSYSTEM-AND-GOVERNANCE-MODEL.md) |
 | Kind | Architecture decision investigation — **not** a Framework Asset, ADR, Method amendment, governance rule, or implementation |
 

@@ -3,10 +3,10 @@
 | Attribute | Value |
 | --------- | ----- |
 | Document | AI Software Development Framework Whitepaper |
-| Version | 0.7 Alpha |
+| Version | v0.2.0 |
 | Classification | Informative / Reference |
 | Status | Publication candidate — WP-A5 editorial complete |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 
 **This whitepaper is Informative / Reference.** It is not Normative Method, not
 Normative Framework, and not an Architecture Decision Record. Authoritative
@@ -17,7 +17,7 @@ Baseline.
 ADRs and labelled Framework Assets are authoritative.**
 
 This whitepaper documents the AI Software Development Framework as of
-**Framework 0.7 Alpha**.
+**Framework v0.2.0**.
 
 ---
 
@@ -37,7 +37,7 @@ Integration so projects adopt the Framework without forking its meaning.
 Reference implementations exercise and inform the Framework; they do not define
 it.
 
-Current maturity is **Framework 0.7 Alpha** with **Runtime Foundation M2**
+Current maturity is **Framework v0.2.0** with **Runtime Foundation M2**
 declared. The Framework intentionally communicates only demonstrated
 architectural capability. This is a development baseline for evolution and the
 first official reference implementation — not production readiness, not Beta or
@@ -59,7 +59,7 @@ control it.
 The **AI Software Development Framework** answers with a **stable governance
 architecture** — Human Authority, proportionate Runtime behaviour, and project
 adoption without forking Framework meaning — under honest maturity claims as of
-**Framework 0.7 Alpha**.
+**Framework v0.2.0**.
 
 This summary is Informative / Reference only. It is not Framework law.
 
@@ -110,7 +110,7 @@ As of this whitepaper:
 | ------ | ------- |
 | **Architecture Foundation** | ADR-001–004 Accepted |
 | **Runtime Foundation M2** | Declared — Runtime-essential ownership gaps closed (Runtime Execution Spine + Discovery) |
-| **Framework 0.7 Alpha** | Official **development baseline** for evolution and the first official reference implementation |
+| **Framework v0.2.0** | Official **development baseline** for evolution and the first official reference implementation |
 
 **Runtime Execution Spine Complete ≠ Runtime Foundation M2.** Spine Complete
 closed spine ownership; M2 additionally required Discovery as Runtime-essential
@@ -125,7 +125,7 @@ substitute for a consuming project’s own adoption.
 
 ### What this does not claim
 
-Framework 0.7 Alpha / Runtime Foundation M2 does **not** mean:
+Framework v0.2.0 / Runtime Foundation M2 does **not** mean:
 
 - production-ready Framework;
 - complete Runtime (all enhancing and adoption surfaces finished);
@@ -1402,7 +1402,7 @@ universally fit. Failure modes and incompleteness exposed by the reference
 project are often *more* valuable than smooth paths — they show where
 architecture or guidance must still improve.
 
-**Where.** Non-claims in the M2 Declaration; Framework 0.7 Alpha as development
+**Where.** Non-claims in the M2 Declaration; Framework v0.2.0 as development
 baseline, not consumer 1.0.
 
 ### Architectural confidence
@@ -1485,7 +1485,7 @@ claim complete Runtime, full enhancing/adoption surfaces, or Framework 1.0.
 
 **Where.** M2 Declaration (authoritative for this milestone distinction).
 
-### Framework 0.7 Alpha, Beta, and 1.0
+### Framework v0.2.0, Beta, and 1.0
 
 **Why.** Release labels without shared meaning become marketing noise —
 especially when AI tooling culture rewards premature “1.0”.
@@ -1494,7 +1494,7 @@ especially when AI tooling culture rewards premature “1.0”.
 
 | Baseline | Positioning |
 | -------- | ------------ |
-| **Framework 0.7 Alpha** (current official development baseline) | Runtime Foundation M2; suitable to evolve the Framework and run the first official reference implementation under honest constraints |
+| **Framework v0.2.0** (current official development baseline) | Runtime Foundation M2; suitable to evolve the Framework and run the first official reference implementation under honest constraints |
 | **Framework 0.7 Beta** | Broader trial maturity (for example preferred strengthening of Stop consolidation and agent participation surfaces) — **not declared** |
 | **Framework 1.0** | Published consumer Baseline; importable kit / Getting Started; Agent Pack; stated adoption claims defensible — **not declared** |
 
@@ -1530,7 +1530,7 @@ and non-claims.
 **Why.** Over-claiming destroys trust faster than under-documenting — especially
 for a Framework that teaches Stop and Human Authority.
 
-**What.** At Framework 0.7 Alpha / Runtime Foundation M2, honest claims include
+**What.** At Framework v0.2.0 / Runtime Foundation M2, honest claims include
 architecture foundation completeness (ADR-001–004 Accepted), Runtime-essential
 ownership closed (FA-001–024 active under the declared posture), and fitness to
 evolve under a reference implementation. Honest **non-claims** include
@@ -1648,7 +1648,7 @@ evolvable Assets carry improvement.
 ### Honest claims strengthen trust
 
 Confidence is earned through demonstrated behaviour, not declared intent.
-Saying what Framework 0.7 Alpha and Runtime Foundation M2 do — and do not —
+Saying what Framework v0.2.0 and Runtime Foundation M2 do — and do not —
 allow the Framework to claim is part of the same discipline the Framework asks
 of consuming projects: Stop rather than invent certainty. Over-claiming would
 contradict the architecture this whitepaper describes.

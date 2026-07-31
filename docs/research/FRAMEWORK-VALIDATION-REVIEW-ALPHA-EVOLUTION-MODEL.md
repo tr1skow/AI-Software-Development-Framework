@@ -5,7 +5,7 @@
 | Document | Framework Validation Review — Alpha Evolution Model |
 | Classification | Informative / Research (observational) |
 | Status | Complete — observational findings recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Scope window | Completed evolution/research track on ecosystem, evolution process, consumer surface, release communication, case studies, backlog, and emerging patterns; plus published Alpha packaging (Adoption / Invocation / M2 / RI posture) |
 | Kind | Validation review — **not** a Design Investigation, Engineering Review, Framework Asset, or ADR |
 

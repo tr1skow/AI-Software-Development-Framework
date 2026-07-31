@@ -5,7 +5,7 @@
 | Document | Design Investigation — Published Consumer Baseline |
 | Classification | Informative / Research (investigation only) |
 | Status | Complete — recommendation recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Related | [Evolution Backlog item 7](../FRAMEWORK-EVOLUTION-BACKLOG.md); [ADR-002](../adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md); [FA-004](../FA-004-PINNING-AND-BASELINE-GUIDE.md); [Evolution Process Investigation](./DESIGN-INVESTIGATION-FRAMEWORK-EVOLUTION-PROCESS.md) |
 | Kind | Design investigation — **not** a Framework Asset, ADR, Method amendment, Baseline publication, or release procedure |
 

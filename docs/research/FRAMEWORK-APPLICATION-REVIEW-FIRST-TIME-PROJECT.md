@@ -5,7 +5,7 @@
 | Document | Framework Application Review — First-Time Project Journey |
 | Classification | Informative / Research (application experience) |
 | Status | Complete — observational findings recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Kind | Application review — **not** a Design Investigation, Engineering Review, Asset, or ADR |
 
 **This review evaluates the experience of applying the completed Alpha

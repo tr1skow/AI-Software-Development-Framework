@@ -138,7 +138,7 @@ or Framework 1.0.
 
 | | |
 | --- | --- |
-| **Development baseline** | **Framework 0.7 Alpha** (official) |
+| **Development baseline** | **Framework v0.2.0** (official) |
 | **Runtime milestone** | **Runtime Foundation M2** declared |
 | **Architecture Foundation** | Complete (ADR-001–004 Accepted) |
 | **Runtime-essential ownership** | Closed (FA-001–024 active) |
@@ -156,7 +156,7 @@ self-evolution by default, and **not** a production-ready, Beta, or Framework
 
 | Milestone | Meaning |
 | --- | --- |
-| **0.7 Alpha** (now) | Official development baseline; Runtime Foundation M2; suitable to evolve the Framework and run the first official reference implementation under honest constraints |
+| **v0.2.0** (now) | Official development baseline; Runtime Foundation M2; suitable to evolve the Framework and run the first official reference implementation under honest constraints |
 | **0.7 Beta** | Broader trial maturity (for example Stop consolidation and stronger agent participation surfaces) — **not** declared yet |
 | **1.0** | Published consumer Baseline; importable kit / Getting Started; Agent Pack; stated adoption claims defensible — **not** declared yet |
 
@@ -332,7 +332,7 @@ not an Alpha Adoption Guide, and not the Framework starting point.
 | --- | --- |
 | [docs/adr/](docs/adr/) | Authoritative architectural decisions (`ADR-###`) |
 | Framework Assets above | Published product content (`FA-###`) |
-| [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative / Reference architectural narrative (Framework 0.7 Alpha) |
+| [Whitepaper](docs/whitepaper/AI-SOFTWARE-DEVELOPMENT-FRAMEWORK-WHITEPAPER.md) | Informative / Reference architectural narrative (Framework v0.2.0) |
 | [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) | Informative / Reference temporary Alpha evaluation path — **singular practical next step** from this README |
 | [Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md) | Informative / Reference permanent operational reference (after Project Integration) |
 | [Stewardship — Single Starting Point](docs/research/FRAMEWORK-STEWARDSHIP-SINGLE-STARTING-POINT.md) | Informative / Research navigation model for Framework Stewardship — **not** Framework law |

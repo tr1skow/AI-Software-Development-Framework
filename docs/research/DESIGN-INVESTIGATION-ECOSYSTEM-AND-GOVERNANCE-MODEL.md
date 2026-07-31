@@ -5,7 +5,7 @@
 | Document | Design Investigation — Framework Ecosystem & Governance Model |
 | Classification | Informative / Research (investigation only) |
 | Status | Complete — recommendation recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Branch | `research/framework-ecosystem-architecture` (investigation lineage) |
 | Kind | Design investigation — **not** a Framework Asset, ADR, Method amendment, or governance rule |
 

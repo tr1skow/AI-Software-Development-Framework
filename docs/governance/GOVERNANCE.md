@@ -6,7 +6,7 @@
 | Type | Repository / governance |
 | Classification | Governance (not a Framework Asset; not an ADR) |
 | Status | Accepted |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Related | [GD-001](./GOVERNANCE_DECISIONS/GD-001-Design-Review.md); [FAIS](./FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md); [FA-002 (Method Spine)](../FA-002-METHOD-SPINE.md); [ADR-001](../adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md)–[ADR-004](../adr/ADR-004-AGENT-INTERACTION-MODEL.md); [Evolution Backlog](../FRAMEWORK-EVOLUTION-BACKLOG.md); Whitepaper Ch. 10 |
 
 This document is **repository and Framework governance**. It is **not** a

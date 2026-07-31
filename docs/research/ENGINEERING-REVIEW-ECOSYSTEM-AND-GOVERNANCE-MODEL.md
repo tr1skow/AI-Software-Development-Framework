@@ -6,7 +6,7 @@
 | Subject | [DESIGN-INVESTIGATION-ECOSYSTEM-AND-GOVERNANCE-MODEL.md](./DESIGN-INVESTIGATION-ECOSYSTEM-AND-GOVERNANCE-MODEL.md) |
 | Classification | Informative / Research (engineering review only) |
 | Status | Complete — readiness judgment recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Kind | Engineering review — **not** a Framework Asset, ADR, Method amendment, governance rule, or implementation plan |
 
 **This review evaluates readiness only.** It does not redesign the investigation,

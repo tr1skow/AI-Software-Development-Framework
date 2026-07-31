@@ -5,7 +5,7 @@
 | Document | Emerging Design Patterns |
 | Classification | Informative / Research (observational) |
 | Status | Living observations — not Framework Principles |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Kind | Research note — **not** a Framework Asset, ADR, Method amendment, or governance rule |
 
 **This document is observational and Informative only.** It does **not** define

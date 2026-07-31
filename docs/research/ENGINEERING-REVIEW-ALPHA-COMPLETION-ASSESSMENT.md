@@ -5,7 +5,7 @@
 | Document | Engineering Review — Alpha Completion Assessment |
 | Classification | Informative / Research (engineering review) |
 | Status | Complete — readiness judgment recorded |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 | Related | [M2 Declaration](../governance/RUNTIME-FOUNDATION-M2-DECLARATION.md); [Validation Review](./FRAMEWORK-VALIDATION-REVIEW-ALPHA-EVOLUTION-MODEL.md); [Evolution Backlog](../FRAMEWORK-EVOLUTION-BACKLOG.md); ADR-001–004; FA-001–024 |
 | Kind | Engineering review — **not** a Design Investigation, Framework Asset, ADR, or Alpha declaration |
 

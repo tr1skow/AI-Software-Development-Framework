@@ -7,7 +7,7 @@
 | Classification | Informative / planning |
 | Status | Accepted |
 | Basis | Approved Whitepaper Architecture Engineering Review (incl. editorial refinements) |
-| Framework baseline | Framework 0.7 Alpha; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
 
 This document plans **authoring**. It is not the whitepaper. It makes no new
 architectural decisions.
@@ -137,7 +137,7 @@ philosophy, and keep chapters independently reviewable.
 
 | | |
 |--|--|
-| **Objective** | Identify Framework version (0.7 Alpha), Informative/Reference force, non-law banner, authority-conflict statement |
+| **Objective** | Identify Framework version (v0.2.0), Informative/Reference force, non-law banner, authority-conflict statement |
 | **Audience** | All readers |
 | **Dependencies** | None |
 | **References** | M2 Declaration; README; FA-001 spirit |
@@ -417,7 +417,7 @@ Ch.7 Runtime ──────────► Ch.8 Classification
 | **WP-A4** | Ch. 1–2 + 15 (+ optional 14/16) | Front matter + close; full draft |
 | **WP-A5** | Full consistency pass + PDF export trial | 0.7 Alpha whitepaper candidate |
 
-Do not treat checkpoints as Framework releases. Whitepaper version tracks **Framework 0.7 Alpha** until a later release bumps both.
+Do not treat checkpoints as Framework releases. Whitepaper version tracks **Framework v0.2.0** until a later release bumps both.
 
 Link from README only after at least **WP-A4** is approved (or earlier as “draft” if explicitly labelled) — out of scope until directed.
 
