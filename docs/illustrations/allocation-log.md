@@ -25,7 +25,8 @@ figure (for example README); otherwise leave blank or `No`.
 | ------ | ----- | ------ | ---------- | ------------- | ---- | ----- |
 | AIS-000 | Architecture Illustration System | Published (standard) | — | — | — | Illustration system standard; not a figure |
 | AIS-001 | Framework Documentation Map | Published | [svg/AIS-001-framework-documentation-map.svg](./svg/AIS-001-framework-documentation-map.svg) | README | Yes | v1.0; [metadata](./svg/AIS-001-framework-documentation-map.metadata.md) |
-| AIS-002+ | — | Unallocated | — | — | — | Next free illustration ID |
+| AIS-002 | Governance Lifecycle | Published | [svg/AIS-002-governance-lifecycle.svg](./svg/AIS-002-governance-lifecycle.svg) | GOVERNANCE.md | No | v1.0; includes Design Review (GD-001); [metadata](./svg/AIS-002-governance-lifecycle.metadata.md) |
+| AIS-003+ | — | Unallocated | — | — | — | Next free illustration ID |
 
 **Referenced by** lists primary documentation citations for maintainers (for
 example: `README`, `Whitepaper §4`). Update when links are added or removed.

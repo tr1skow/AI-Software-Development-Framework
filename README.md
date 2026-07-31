@@ -336,8 +336,10 @@ not an Alpha Adoption Guide, and not the Framework starting point.
 | [Framework 0.7 Alpha Adoption Guide](docs/adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) | Informative / Reference temporary Alpha evaluation path — **singular practical next step** from this README |
 | [Framework Invocation Guide](docs/FRAMEWORK-INVOCATION-GUIDE.md) | Informative / Reference permanent operational reference (after Project Integration) |
 | [Stewardship — Single Starting Point](docs/research/FRAMEWORK-STEWARDSHIP-SINGLE-STARTING-POINT.md) | Informative / Research navigation model for Framework Stewardship — **not** Framework law |
+| [Framework Governance](docs/governance/GOVERNANCE.md) | Governance lifecycle, evidence categories, Framework First Principle |
+| [GD-001 — Design Review](docs/governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md) | Mandatory Design Review before implementation |
 | [Runtime Foundation M2 Declaration](docs/governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) | Governance milestone declaration |
-| [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance |
+| [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md) | Asset identification governance (`ADR-###` / `FA-###` / `GD-###`) |
 | [Allocation log](docs/governance/FRAMEWORK-ASSET-ALLOCATION-LOG.md) | `FA-###` allocation state |
 | [Evolution Backlog](docs/FRAMEWORK-EVOLUTION-BACKLOG.md) | Informative living candidates for Framework evolution — **not** a roadmap, not Normative law, not a published consumer Baseline |
 | [docs/research/](docs/research/) | Informative investigations, engineering/validation reviews, and observational notes — **not** Framework Assets, not ADRs, not pin content, not the consumer offering |
@@ -359,6 +361,8 @@ wording as normative.
 - Method amendments: [FA-002 (Method Spine) — Amendment](docs/FA-002-METHOD-SPINE.md)
 - Baseline identity, compatibility, and migration: [ADR-002](docs/adr/ADR-002-BASELINE-PINNING-AND-VERSIONING.md)
 - Asset identity lifecycle: [FAIS](docs/governance/FRAMEWORK-ASSET-IDENTIFICATION-STANDARD.md)
+- Governance lifecycle and Framework First: [GOVERNANCE.md](docs/governance/GOVERNANCE.md)
+- Design Review before implementation: [GD-001](docs/governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md)
 - Evolution candidates (non-binding): [Evolution Backlog](docs/FRAMEWORK-EVOLUTION-BACKLOG.md)
 
 Useful contribution includes informed review of assets and ADRs against the

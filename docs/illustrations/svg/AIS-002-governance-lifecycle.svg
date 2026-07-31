@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780" role="img" aria-labelledby="title desc">
+  <title id="title">AIS-002 - Governance Lifecycle</title>
+  <desc id="desc">Framework governance lifecycle: Backlog, Design Review, Architecture Review only when required, Implementation, Implementation Review, Merge Review, Evidence Capture, Framework Evolution Assessment. Informative governance view; not a Runtime workflow.</desc>
+
+  <!--
+    AIS ID: AIS-002
+    title: Governance Lifecycle
+    Framework version: Framework 0.7 Alpha
+    illustration version: 1.0
+    publication date: 2026-07-31
+    status: Published
+    force: Informative / Reference
+    source: native SVG
+    Hero: No
+    Changes:
+      v1.0 Initial publication - includes Design Review (GD-001)
+  -->
+
+  <defs>
+    <marker id="arrow-flow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2d3748"/>
+    </marker>
+    <style type="text/css"><![CDATA[
+      .label { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #1a202c; }
+      .sub { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #4a5568; }
+      .caption { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #2d3748; }
+      .badge { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #4a5568; }
+    ]]></style>
+  </defs>
+
+  <rect width="1100" height="780" fill="#f7fafc"/>
+
+  <text x="40" y="36" class="label" font-size="20" font-weight="600">AIS-002 - Governance Lifecycle</text>
+  <text x="40" y="58" class="badge" font-size="12">as of Framework 0.7 Alpha | Informative / Reference | not a Runtime workflow</text>
+
+  <!-- Column: main lifecycle -->
+  <!-- Backlog -->
+  <rect x="360" y="80" width="380" height="52" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2"/>
+  <text x="550" y="112" text-anchor="middle" class="label" font-size="15" font-weight="600">Backlog</text>
+
+  <line x1="550" y1="132" x2="550" y2="158" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Design Review (focus) -->
+  <rect x="360" y="160" width="380" height="64" rx="8" fill="#fffaf0" stroke="#c05621" stroke-width="3.5"/>
+  <text x="550" y="188" text-anchor="middle" class="label" font-size="16" font-weight="700">Design Review</text>
+  <text x="550" y="208" text-anchor="middle" class="sub" font-size="12">mandatory before implementation (GD-001)</text>
+
+  <line x1="550" y1="224" x2="550" y2="250" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Architecture Review (optional / only when required) -->
+  <rect x="360" y="252" width="380" height="64" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="550" y="280" text-anchor="middle" class="label" font-size="15" font-weight="600">Architecture Review</text>
+  <text x="550" y="300" text-anchor="middle" class="sub" font-size="12">only when required</text>
+
+  <line x1="550" y1="316" x2="550" y2="342" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Implementation -->
+  <rect x="360" y="344" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="376" text-anchor="middle" class="label" font-size="15" font-weight="600">Implementation</text>
+
+  <line x1="550" y1="396" x2="550" y2="422" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Implementation Review -->
+  <rect x="360" y="424" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="456" text-anchor="middle" class="label" font-size="15" font-weight="600">Implementation Review</text>
+
+  <line x1="550" y1="476" x2="550" y2="502" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Merge Review -->
+  <rect x="360" y="504" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="536" text-anchor="middle" class="label" font-size="15" font-weight="600">Merge Review</text>
+
+  <line x1="550" y1="556" x2="550" y2="582" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Evidence Capture -->
+  <rect x="360" y="584" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="616" text-anchor="middle" class="label" font-size="15" font-weight="600">Evidence Capture</text>
+
+  <line x1="550" y1="636" x2="550" y2="662" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+
+  <!-- Framework Evolution Assessment -->
+  <rect x="360" y="664" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="696" text-anchor="middle" class="label" font-size="14" font-weight="600">Framework Evolution Assessment</text>
+
+  <!-- Side callout: domains -->
+  <rect x="40" y="160" width="280" height="200" rx="8" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="56" y="188" class="label" font-size="13" font-weight="600">Governance domains</text>
+  <text x="56" y="218" class="sub" font-size="12">Architecture Governance</text>
+  <text x="56" y="236" class="badge" font-size="11">Architecture Review | ADRs</text>
+  <text x="56" y="268" class="sub" font-size="12">Design Governance</text>
+  <text x="56" y="286" class="badge" font-size="11">Design Review (GD-001)</text>
+  <text x="56" y="318" class="sub" font-size="12">Implementation Governance</text>
+  <text x="56" y="336" class="badge" font-size="11">Implementation / Merge Review</text>
+
+  <!-- Side callout: evidence -->
+  <rect x="780" y="160" width="280" height="200" rx="8" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="796" y="188" class="label" font-size="13" font-weight="600">Evidence categories</text>
+  <text x="796" y="218" class="sub" font-size="12">Technical Evidence</text>
+  <text x="796" y="248" class="sub" font-size="12">Governance Evidence</text>
+  <text x="796" y="278" class="sub" font-size="12">Framework Evolution Evidence</text>
+  <text x="796" y="318" class="badge" font-size="11">Improvements require</text>
+  <text x="796" y="336" class="badge" font-size="11">documented evidence</text>
+
+  <!-- Legend -->
+  <rect x="40" y="640" width="280" height="80" rx="4" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="52" y="660" class="label" font-size="11" font-weight="600">Legend</text>
+  <rect x="52" y="672" width="28" height="14" fill="#fffaf0" stroke="#c05621" stroke-width="2"/>
+  <text x="88" y="684" class="sub" font-size="11">focus (Design Review)</text>
+  <rect x="52" y="696" width="28" height="14" fill="#edf2f7" stroke="#718096" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="88" y="708" class="sub" font-size="11">only when required</text>
+
+  <text x="1060" y="760" text-anchor="end" class="badge" font-size="10">v1.0</text>
+</svg>

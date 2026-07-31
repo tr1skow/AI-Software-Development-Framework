@@ -7,7 +7,7 @@
 | Kind | guide |
 | Classification | Normative Framework (mixed sections labelled) |
 | Lifecycle Status | Accepted |
-| Related | [FA-012 (Review Outcome Template)](./FA-012-REVIEW-OUTCOME-TEMPLATE.md); [FA-013 (Verification Guide)](./FA-013-VERIFICATION-GUIDE.md); [FA-015 (Approval Guide)](./FA-015-APPROVAL-GUIDE.md); [FA-009 (Change Classification Guide)](./FA-009-CHANGE-CLASSIFICATION-GUIDE.md); [FA-007 (Minimal Project Policy Starter)](./FA-007-MINIMAL-PROJECT-POLICY-STARTER.md); [FA-005 (Local Project Entry Guide)](./FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md); [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md); [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) |
+| Related | [FA-012 (Review Outcome Template)](./FA-012-REVIEW-OUTCOME-TEMPLATE.md); [FA-013 (Verification Guide)](./FA-013-VERIFICATION-GUIDE.md); [FA-015 (Approval Guide)](./FA-015-APPROVAL-GUIDE.md); [FA-009 (Change Classification Guide)](./FA-009-CHANGE-CLASSIFICATION-GUIDE.md); [FA-007 (Minimal Project Policy Starter)](./FA-007-MINIMAL-PROJECT-POLICY-STARTER.md); [FA-005 (Local Project Entry Guide)](./FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md); [FA-002 (Method Spine)](./FA-002-METHOD-SPINE.md); [ADR-001](./adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md); [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md); [GD-001 (Design Review)](./governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md) (governance; distinct from this Runtime capability) |
 
 ---
 
@@ -180,12 +180,26 @@ Projects MAY specialise cues within Method/Core invariants.
 
 ---
 
+## Relationship to Design Review
+
+*Informative.*
+
+**Design Review** is a Design Governance activity that validates planned
+implementation **before code is written**
+([GD-001](./governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md);
+[GOVERNANCE.md](./governance/GOVERNANCE.md)). It is **not** the Runtime
+**Review** capability owned by this guide. Design Review may decide that an
+Architecture Review is required; it does not produce a Review Outcome under
+FA-011.
+
+---
+
 ## Non-goals
 
 *Informative.*
 
 This guide does not author Verification bars, Approval procedures, Agent Pack
-content, tooling, or persistence design.
+content, tooling, persistence design, or Design Review procedure (see GD-001).
 
 ---
 
