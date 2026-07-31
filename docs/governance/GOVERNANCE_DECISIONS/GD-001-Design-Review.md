@@ -4,7 +4,7 @@
 | --------- | ----- |
 | Governance Decision | GD-001 |
 | Title | Mandatory Design Review Before Implementation |
-| Status | Accepted |
+| Status | Under Review |
 | Classification | Governance Decision |
 | Product | AI Software Development Framework |
 | Related | [GOVERNANCE.md](../GOVERNANCE.md); [FA-002 (Method Spine)](../../FA-002-METHOD-SPINE.md); [FA-011 (Review Guide)](../../FA-011-REVIEW-GUIDE.md); [ADR-001](../../adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md)–[ADR-004](../../adr/ADR-004-AGENT-INTERACTION-MODEL.md); Whitepaper Ch. 10; Reference Implementation RI-001 (Fitness Challenge Platform) |
@@ -13,7 +13,29 @@
 
 ## Status
 
-Accepted
+Under Review
+
+Statuses follow the lightweight Governance Decision status model in
+[GOVERNANCE.md](../GOVERNANCE.md#status-model): Draft · Under Review ·
+Accepted · Superseded · Deprecated.
+
+---
+
+## Applicability
+
+GD-001 applies to:
+
+1. **AI Software Development Framework evolution** — implementation phases that
+   change Framework governance, Method, Assets, ADRs, or other Framework-repo
+   product content under stewardship.
+2. **Official Reference Implementations** — implementation phases in an
+   official RI (for example RI-001 Fitness Challenge Platform) conducted under
+   Framework governance for validation and evidence production.
+
+GD-001 does **not** make Design Review mandatory for all Framework consumers
+or for all software development. Ordinary consuming projects MAY adopt Design
+Review voluntarily under Project Policy; this Decision does not impose it on
+them.
 
 ---
 
@@ -60,13 +82,14 @@ Framework governance directly.
 
 ## When
 
-A Design Review **shall** be performed **before every implementation phase**.
+Within the [Applicability](#applicability) stated above, a Design Review
+**shall** be performed **before every implementation phase**.
 
 “Implementation phase” means a bounded unit of planned delivery work that is
-about to produce product or Framework changes (for example a named phase,
-increment, or material change package). Design Review is not waived by the
-existence of prior Architecture Reviews, ADRs, or Runtime Review outcomes for
-earlier phases.
+about to produce in-scope Framework evolution changes or official Reference
+Implementation changes (for example a named phase, increment, or material
+change package). Design Review is not waived by the existence of prior
+Architecture Reviews, ADRs, or Runtime Review outcomes for earlier phases.
 
 ---
 
@@ -84,7 +107,8 @@ Design Review shall validate:
 
 Design Review shall determine whether:
 
-- **implementation may begin**, or
+- **implementation may begin**,
+- **the plan must be revised** (then return to Design Review), or
 - **an Architecture Review is required**
 
 before implementation proceeds.
@@ -103,8 +127,11 @@ Each Design Review shall produce:
 | **Architecture Review decision** | Required or not required, with enough specificity to act |
 | **Documented rationale** | Why the recommendation and Architecture Review decision follow from the review |
 
-These outputs are **Governance Evidence**. They do not by themselves amend
-Accepted ADRs or Normative Framework Assets.
+These outputs are **Governance Evidence** when used to show that Design Review
+produced its intended outputs. The same records may also be **Framework
+Evolution Evidence** when used to justify a Framework change. Categories
+classify use, not file location ([GOVERNANCE.md](../GOVERNANCE.md#evidence-categories)).
+They do not by themselves amend Accepted ADRs or Normative Framework Assets.
 
 ---
 
@@ -124,7 +151,9 @@ Review finds that the planned work:
 
 When Architecture Review is required, implementation of the affected scope
 shall not begin until that review (and any resulting ADR work it mandates) has
-resolved the blocking architectural questions.
+resolved the blocking architectural questions. After ADR completion, work
+returns to **Design Review** or **Implementation** per the
+[lifecycle transitions](../GOVERNANCE.md#lifecycle-transitions).
 
 ---
 
@@ -164,6 +193,7 @@ This Governance Decision does **not**:
 - introduce new coding patterns or prompts
 - change any Reference Implementation repository
 - require Architecture Review before every phase
+- mandate Design Review for all Framework consumers or all software development
 
 ---
 

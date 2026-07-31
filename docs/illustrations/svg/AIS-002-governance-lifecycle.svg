@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="860" viewBox="0 0 1100 860" role="img" aria-labelledby="title desc">
   <title id="title">AIS-002 - Governance Lifecycle</title>
-  <desc id="desc">Framework governance lifecycle: Backlog, Design Review, Architecture Review only when required, Implementation, Implementation Review, Merge Review, Evidence Capture, Framework Evolution Assessment. Informative governance view; not a Runtime workflow.</desc>
+  <desc id="desc">Iterative Framework governance lifecycle: Backlog, Design Review with plan revision loop, conditional Architecture Review and ADR work returning to Design Review or Implementation, then Implementation Review, Merge Review, Evidence Capture, Framework Evolution Assessment returning to Backlog. Informative governance view; not a Runtime workflow.</desc>
 
   <!--
     AIS ID: AIS-002
     title: Governance Lifecycle
     Framework version: Framework 0.7 Alpha
-    illustration version: 1.0
+    illustration version: 1.1
     publication date: 2026-07-31
     status: Published
     force: Informative / Reference
@@ -15,100 +15,113 @@
     Hero: No
     Changes:
       v1.0 Initial publication - includes Design Review (GD-001)
+      v1.1 Iteration transitions: plan revision, ADR return, evolution to Backlog
   -->
 
   <defs>
     <marker id="arrow-flow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
       <path d="M0,0 L8,4 L0,8 Z" fill="#2d3748"/>
     </marker>
+    <marker id="arrow-iter" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c05621"/>
+    </marker>
     <style type="text/css"><![CDATA[
       .label { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #1a202c; }
       .sub { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #4a5568; }
-      .caption { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #2d3748; }
       .badge { font-family: Segoe UI, Helvetica, Arial, sans-serif; fill: #4a5568; }
     ]]></style>
   </defs>
 
-  <rect width="1100" height="780" fill="#f7fafc"/>
+  <rect width="1100" height="860" fill="#f7fafc"/>
 
   <text x="40" y="36" class="label" font-size="20" font-weight="600">AIS-002 - Governance Lifecycle</text>
-  <text x="40" y="58" class="badge" font-size="12">as of Framework 0.7 Alpha | Informative / Reference | not a Runtime workflow</text>
+  <text x="40" y="58" class="badge" font-size="12">as of Framework 0.7 Alpha | Informative / Reference | not a Runtime workflow | supports iteration</text>
 
-  <!-- Column: main lifecycle -->
   <!-- Backlog -->
-  <rect x="360" y="80" width="380" height="52" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2"/>
-  <text x="550" y="112" text-anchor="middle" class="label" font-size="15" font-weight="600">Backlog</text>
+  <rect x="360" y="72" width="380" height="44" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2"/>
+  <text x="550" y="100" text-anchor="middle" class="label" font-size="15" font-weight="600">Backlog</text>
 
-  <line x1="550" y1="132" x2="550" y2="158" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <line x1="550" y1="116" x2="550" y2="138" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
   <!-- Design Review (focus) -->
-  <rect x="360" y="160" width="380" height="64" rx="8" fill="#fffaf0" stroke="#c05621" stroke-width="3.5"/>
-  <text x="550" y="188" text-anchor="middle" class="label" font-size="16" font-weight="700">Design Review</text>
-  <text x="550" y="208" text-anchor="middle" class="sub" font-size="12">mandatory before implementation (GD-001)</text>
+  <rect x="360" y="140" width="380" height="56" rx="8" fill="#fffaf0" stroke="#c05621" stroke-width="3.5"/>
+  <text x="550" y="164" text-anchor="middle" class="label" font-size="16" font-weight="700">Design Review</text>
+  <text x="550" y="184" text-anchor="middle" class="sub" font-size="11">mandatory in GD-001 applicability</text>
 
-  <line x1="550" y1="224" x2="550" y2="250" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <!-- Plan Revision loop (left): Design Review <-> Plan Revision -->
+  <line x1="360" y1="158" x2="320" y2="158" stroke="#c05621" stroke-width="2" marker-end="url(#arrow-iter)"/>
+  <rect x="120" y="146" width="200" height="44" rx="8" fill="#fffaf0" stroke="#c05621" stroke-width="2"/>
+  <text x="220" y="174" text-anchor="middle" class="label" font-size="13" font-weight="600">Plan Revision</text>
+  <text x="140" y="130" class="badge" font-size="10">when required</text>
+  <path d="M220 190 V208 H360 V196" stroke="#c05621" stroke-width="2" fill="none" marker-end="url(#arrow-iter)"/>
+  <text x="250" y="222" class="badge" font-size="10">re-validate (Design Review)</text>
 
-  <!-- Architecture Review (optional / only when required) -->
-  <rect x="360" y="252" width="380" height="64" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="550" y="280" text-anchor="middle" class="label" font-size="15" font-weight="600">Architecture Review</text>
-  <text x="550" y="300" text-anchor="middle" class="sub" font-size="12">only when required</text>
+  <line x1="550" y1="196" x2="550" y2="218" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
-  <line x1="550" y1="316" x2="550" y2="342" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <!-- Architecture Review -->
+  <rect x="360" y="220" width="380" height="52" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="550" y="244" text-anchor="middle" class="label" font-size="15" font-weight="600">Architecture Review</text>
+  <text x="550" y="262" text-anchor="middle" class="sub" font-size="11">only when required</text>
+
+  <!-- ADR work (right) -->
+  <path d="M740 246 H880" stroke="#c05621" stroke-width="2" fill="none" marker-end="url(#arrow-iter)"/>
+  <rect x="880" y="224" width="180" height="44" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="970" y="252" text-anchor="middle" class="label" font-size="13" font-weight="600">ADR work</text>
+  <text x="970" y="286" text-anchor="middle" class="badge" font-size="10">when required</text>
+
+  <!-- Return paths from ADR -->
+  <path d="M970 268 V310 H740" stroke="#c05621" stroke-width="1.75" fill="none" marker-end="url(#arrow-iter)"/>
+  <text x="860" y="304" class="badge" font-size="10">return to Design Review or Implementation</text>
+
+  <!-- skip note -->
+  <text x="560" y="286" class="badge" font-size="10">skip when not required</text>
+
+  <line x1="550" y1="272" x2="550" y2="318" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
   <!-- Implementation -->
-  <rect x="360" y="344" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="550" y="376" text-anchor="middle" class="label" font-size="15" font-weight="600">Implementation</text>
+  <rect x="360" y="320" width="380" height="44" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="348" text-anchor="middle" class="label" font-size="15" font-weight="600">Implementation</text>
 
-  <line x1="550" y1="396" x2="550" y2="422" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <line x1="550" y1="364" x2="550" y2="386" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
-  <!-- Implementation Review -->
-  <rect x="360" y="424" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="550" y="456" text-anchor="middle" class="label" font-size="15" font-weight="600">Implementation Review</text>
+  <rect x="360" y="388" width="380" height="44" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="416" text-anchor="middle" class="label" font-size="15" font-weight="600">Implementation Review</text>
 
-  <line x1="550" y1="476" x2="550" y2="502" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <line x1="550" y1="432" x2="550" y2="454" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
-  <!-- Merge Review -->
-  <rect x="360" y="504" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="550" y="536" text-anchor="middle" class="label" font-size="15" font-weight="600">Merge Review</text>
+  <rect x="360" y="456" width="380" height="44" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="484" text-anchor="middle" class="label" font-size="15" font-weight="600">Merge Review</text>
 
-  <line x1="550" y1="556" x2="550" y2="582" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <line x1="550" y1="500" x2="550" y2="522" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
-  <!-- Evidence Capture -->
-  <rect x="360" y="584" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="550" y="616" text-anchor="middle" class="label" font-size="15" font-weight="600">Evidence Capture</text>
+  <rect x="360" y="524" width="380" height="44" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="552" text-anchor="middle" class="label" font-size="15" font-weight="600">Evidence Capture</text>
 
-  <line x1="550" y1="636" x2="550" y2="662" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
+  <line x1="550" y1="568" x2="550" y2="590" stroke="#2d3748" stroke-width="2.25" marker-end="url(#arrow-flow)"/>
 
-  <!-- Framework Evolution Assessment -->
-  <rect x="360" y="664" width="380" height="52" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="550" y="696" text-anchor="middle" class="label" font-size="14" font-weight="600">Framework Evolution Assessment</text>
+  <rect x="360" y="592" width="380" height="44" rx="8" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="550" y="620" text-anchor="middle" class="label" font-size="14" font-weight="600">Framework Evolution Assessment</text>
 
-  <!-- Side callout: domains -->
-  <rect x="40" y="160" width="280" height="200" rx="8" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
-  <text x="56" y="188" class="label" font-size="13" font-weight="600">Governance domains</text>
-  <text x="56" y="218" class="sub" font-size="12">Architecture Governance</text>
-  <text x="56" y="236" class="badge" font-size="11">Architecture Review | ADRs</text>
-  <text x="56" y="268" class="sub" font-size="12">Design Governance</text>
-  <text x="56" y="286" class="badge" font-size="11">Design Review (GD-001)</text>
-  <text x="56" y="318" class="sub" font-size="12">Implementation Governance</text>
-  <text x="56" y="336" class="badge" font-size="11">Implementation / Merge Review</text>
+  <!-- Return to Backlog -->
+  <path d="M360 614 H80 V94 H360" stroke="#c05621" stroke-width="2" fill="none" marker-end="url(#arrow-iter)"/>
+  <text x="96" y="360" class="badge" font-size="11" transform="rotate(-90 96 360)">to Backlog when candidates remain or are created</text>
 
-  <!-- Side callout: evidence -->
-  <rect x="780" y="160" width="280" height="200" rx="8" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
-  <text x="796" y="188" class="label" font-size="13" font-weight="600">Evidence categories</text>
-  <text x="796" y="218" class="sub" font-size="12">Technical Evidence</text>
-  <text x="796" y="248" class="sub" font-size="12">Governance Evidence</text>
-  <text x="796" y="278" class="sub" font-size="12">Framework Evolution Evidence</text>
-  <text x="796" y="318" class="badge" font-size="11">Improvements require</text>
-  <text x="796" y="336" class="badge" font-size="11">documented evidence</text>
+  <!-- Side panels -->
+  <rect x="40" y="680" width="500" height="120" rx="8" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="56" y="706" class="label" font-size="13" font-weight="600">Evidence categories (by use)</text>
+  <text x="56" y="730" class="sub" font-size="12">Technical - Did the solution behave as expected?</text>
+  <text x="56" y="752" class="sub" font-size="12">Governance - Did the activity produce intended outputs?</text>
+  <text x="56" y="774" class="sub" font-size="12">Framework Evolution - Does evidence justify Framework change?</text>
+  <text x="56" y="790" class="badge" font-size="11">Same artefact may serve more than one category</text>
 
-  <!-- Legend -->
-  <rect x="40" y="640" width="280" height="80" rx="4" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
-  <text x="52" y="660" class="label" font-size="11" font-weight="600">Legend</text>
-  <rect x="52" y="672" width="28" height="14" fill="#fffaf0" stroke="#c05621" stroke-width="2"/>
-  <text x="88" y="684" class="sub" font-size="11">focus (Design Review)</text>
-  <rect x="52" y="696" width="28" height="14" fill="#edf2f7" stroke="#718096" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="88" y="708" class="sub" font-size="11">only when required</text>
+  <rect x="560" y="680" width="500" height="120" rx="8" fill="#ffffff" stroke="#cbd5e0" stroke-width="1"/>
+  <text x="576" y="706" class="label" font-size="13" font-weight="600">Legend</text>
+  <rect x="576" y="720" width="28" height="14" fill="#fffaf0" stroke="#c05621" stroke-width="2"/>
+  <text x="612" y="732" class="sub" font-size="11">focus / iteration (Design Review, revision, ADR return)</text>
+  <rect x="576" y="744" width="28" height="14" fill="#edf2f7" stroke="#718096" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="612" y="756" class="sub" font-size="11">only when required</text>
+  <line x1="576" y1="774" x2="604" y2="774" stroke="#2d3748" stroke-width="2.25"/>
+  <text x="612" y="778" class="sub" font-size="11">primary flow</text>
 
-  <text x="1060" y="760" text-anchor="end" class="badge" font-size="10">v1.0</text>
+  <text x="1060" y="840" text-anchor="end" class="badge" font-size="10">v1.1</text>
 </svg>

@@ -133,6 +133,10 @@ Filename changes do not change Asset ID.
 | Governance Decisions | `GD-###` | Framework stewardship / governance rules (see [GOVERNANCE.md](./GOVERNANCE.md)) |
 | Repository / construction governance | No `FA-###` / not an ADR by default | How this repository identifies and maintains assets |
 
+Governance Decision status values (Draft, Under Review, Accepted, Superseded,
+Deprecated) are defined in [GOVERNANCE.md](./GOVERNANCE.md#status-model). FAIS
+does not invent a separate GD workflow.
+
 FAIS does not amend Method Spine principles, ADR decisions, or Framework
 capability semantics. Governance Decisions must not silently redefine
 architecture or Runtime; architectural change remains ADR-owned.
