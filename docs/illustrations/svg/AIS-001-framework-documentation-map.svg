@@ -6,7 +6,7 @@
   <!--
     AIS ID: AIS-001
     title: Framework Documentation Map
-    Framework version: Framework v0.2.0
+    Framework version: Framework v0.2.1
     illustration version: 1.0
     publication date: 2026-07-26
     status: Published
@@ -35,7 +35,7 @@
   <rect width="1100" height="720" fill="#f7fafc"/>
 
   <text x="40" y="36" class="label" font-size="20" font-weight="600">AIS-001 - Framework Documentation Map</text>
-  <text x="40" y="58" class="badge" font-size="12">as of Framework v0.2.0 | Informative / Reference | not a Runtime workflow</text>
+  <text x="40" y="58" class="badge" font-size="12">as of Framework v0.2.1 | Informative / Reference | not a Runtime workflow</text>
 
   <!-- Whitepaper (Informative dashed) -->
   <rect x="380" y="90" width="340" height="78" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2" stroke-dasharray="6 4"/>
@@ -55,7 +55,7 @@
 
   <!-- Alpha Adoption (Informative dashed - temporary packaging) -->
   <rect x="200" y="500" width="280" height="78" rx="8" fill="#edf2f7" stroke="#718096" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="340" y="530" text-anchor="middle" class="label" font-size="14" font-weight="600">Framework v0.2.0</text>
+  <text x="340" y="530" text-anchor="middle" class="label" font-size="14" font-weight="600">Framework v0.2.1</text>
   <text x="340" y="548" text-anchor="middle" class="label" font-size="14" font-weight="600">Adoption Guide</text>
   <text x="340" y="568" text-anchor="middle" class="sub" font-size="12">Evaluate - establish Project Integration</text>
 

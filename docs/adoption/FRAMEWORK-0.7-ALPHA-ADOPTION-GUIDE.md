@@ -5,7 +5,7 @@
 | Document | Framework 0.7 Alpha Adoption Guide |
 | Classification | Informative / Reference |
 | Status | Published (Alpha packaging) |
-| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.1; Runtime Foundation M2 |
 | Kind | Official Framework document (not a Framework Asset; not an ADR) |
 | Lifecycle | Temporary — Alpha evaluation packaging; expected to evolve or be replaced before Framework 1.0 |
 
@@ -21,7 +21,7 @@ disagree, the Accepted ADRs and labelled Framework Assets are authoritative.**
 ## 1. Purpose
 
 This guide helps an experienced software team **evaluate** the AI Software
-Development Framework on a **real project** under **Framework v0.2.0**.
+Development Framework on a **real project** under **Framework v0.2.1**.
 
 **Where you are in the journey**
 
@@ -64,7 +64,7 @@ the [Framework Invocation Guide](../FRAMEWORK-INVOCATION-GUIDE.md).
 
 | | |
 | - | - |
-| **Development baseline** | Framework v0.2.0 |
+| **Development baseline** | Framework v0.2.1 |
 | **Runtime milestone** | Runtime Foundation M2 declared |
 
 See the repository [README](../../README.md) and
@@ -86,7 +86,7 @@ For the problem, design principles, and architecture narrative:
 
 ### Honest non-claims
 
-This guide — and Framework v0.2.0 / Runtime Foundation M2 — do **not** mean:
+This guide — and Framework v0.2.1 / Runtime Foundation M2 — do **not** mean:
 
 - production-ready Framework
 - complete onboarding or an importable consumer kit

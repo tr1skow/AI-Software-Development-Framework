@@ -5,7 +5,7 @@
 | Document | Framework Invocation Guide |
 | Classification | Informative / Reference |
 | Status | Published (Alpha packaging) |
-| Framework baseline | Framework v0.2.0; Runtime Foundation M2 |
+| Framework baseline | Framework v0.2.1; Runtime Foundation M2 |
 | Kind | Official Framework document (not a Framework Asset; not an ADR) |
 
 **This document is Informative / Reference.** It includes a **Recommended**
