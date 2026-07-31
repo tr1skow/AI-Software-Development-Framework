@@ -259,6 +259,22 @@ or commitments to act when evidence appears.
 
 ---
 
+### 13. Mandatory Design Review Before Implementation (GD-001)
+
+| Field | Value |
+| ----- | ----- |
+| **Title** | Mandatory Design Review Before Implementation |
+| **Status** | Completed |
+| **Origin** | Reference Implementation RI-001 (Fitness Challenge Platform): structured Design Review before Runtime Metric Foundation Phase 6 validated scope, challenged design, confirmed Architecture Review not required, improved acceptance criteria, and identified governance improvements before code was written. |
+| **Problem Statement** | Design Governance was practised empirically in RI-001 but was not yet a formal Framework governance rule distinct from Architecture Governance and Implementation Governance. |
+| **Expected Investigation Type** | Governance Decision authoring (documentation only) — not an ADR; not Runtime change. |
+| **Expected Value** | Establish Design Review as an official governance activity; define evidence categories; record Framework First Principle. |
+| **Current Priority** | Low |
+| **Maturity Trigger** | **Met and closed** via [GD-001](./governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md) and [GOVERNANCE.md](./governance/GOVERNANCE.md). |
+| **Notes** | First Governance Decision generated from documented RI evidence under Framework First. Does not modify architecture, Runtime, or any Reference Implementation repository. |
+
+---
+
 ## Intentionally not listed
 
 The following were considered and **not** added for lack of sufficient distinct
@@ -283,6 +299,7 @@ Accepted architecture):
 | 2026-07-29 | Item 8 updated after Release Communication Design Investigation (Option D); status → Ready for Investigation |
 | 2026-07-29 | Item 12 added (Framework Case Studies) after Design Investigation (Option D); status Deferred |
 | 2026-07-29 | Items 2 completed and 7 near-term clarity closed via Alpha Merge Readiness (README + FA-004) |
+| 2026-07-31 | Item 13 completed: GD-001 Design Review + GOVERNANCE.md (RI-001 evidence; Framework First) |
 
 ---
 

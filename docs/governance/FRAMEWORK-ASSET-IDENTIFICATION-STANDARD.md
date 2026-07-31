@@ -27,13 +27,16 @@ evolution.
 | ------ | ----- |
 | `ADR-###` | Architecture Decision Records |
 | `FA-###` | All non-ADR Framework product assets |
+| `GD-###` | Governance Decisions (repository / Framework governance rules) |
 
 Asset type is represented by **Kind** metadata, not separate ID prefixes.
 
 Do **not** introduce typed ID namespaces such as GP, TP, AP, EX, or RI.
 
-Repository-governance documents (including this standard and the allocation
-log) use neither `FA-###` nor `ADR-###` as their identity scheme.
+Repository-governance documents other than Governance Decisions (including this
+standard and the allocation log) use neither `FA-###`, `ADR-###`, nor `GD-###`
+as their identity scheme. Governance Decisions are recorded under
+[GOVERNANCE.md](./GOVERNANCE.md) and `GOVERNANCE_DECISIONS/`.
 
 ---
 
@@ -127,10 +130,16 @@ Filename changes do not change Asset ID.
 | -------------- | -------- | --------- |
 | Architecture Decision Records | `ADR-###` | Architectural decisions |
 | Framework Assets | `FA-###` | Method / Framework product content under labelling rules |
+| Governance Decisions | `GD-###` | Framework stewardship / governance rules (see [GOVERNANCE.md](./GOVERNANCE.md)) |
 | Repository / construction governance | No `FA-###` / not an ADR by default | How this repository identifies and maintains assets |
 
+Governance Decision status values (Draft, Under Review, Accepted, Superseded,
+Deprecated) are defined in [GOVERNANCE.md](./GOVERNANCE.md#status-model). FAIS
+does not invent a separate GD workflow.
+
 FAIS does not amend Method Spine principles, ADR decisions, or Framework
-capability semantics.
+capability semantics. Governance Decisions must not silently redefine
+architecture or Runtime; architectural change remains ADR-owned.
 
 ---
 

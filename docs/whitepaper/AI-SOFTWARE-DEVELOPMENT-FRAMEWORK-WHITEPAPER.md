@@ -1380,12 +1380,16 @@ the same gaps silently.
 **What.** Experience from the reference implementation — missing guidance,
 awkward ownership boundaries, Stop/escalation gaps, Policy pressure — feeds
 back through normal Framework change: ADRs where architecture must move,
-labelled Framework Assets where guidance must improve. Authority stays with
-the Framework; feedback informs evolution without transferring law-making to
-the project.
+labelled Framework Assets where guidance must improve, and Governance
+Decisions (`GD-###`) where stewardship rules must improve. Authority stays
+with the Framework; feedback informs evolution without transferring
+law-making to the project. The **Framework First Principle** requires that
+governance, methodology, or process improvements be incorporated into the
+Framework before any Reference Implementation adopts them
+([GOVERNANCE.md](../governance/GOVERNANCE.md)).
 
-**Where.** M2 Declaration feedback role; FAIS / ADR process (governance), not
-this whitepaper.
+**Where.** [GOVERNANCE.md](../governance/GOVERNANCE.md); [GD-001](../governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md);
+M2 Declaration feedback role; FAIS / ADR process — not this whitepaper.
 
 ### Not proof of correctness
 

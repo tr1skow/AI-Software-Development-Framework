@@ -495,4 +495,14 @@ with the Method Spine are invalid.
 
 ---
 
+## See also (governance — not an architectural amendment)
+
+*Informative.* Design Governance and Design Review are defined in
+[GD-001](../governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md) and
+[GOVERNANCE.md](../governance/GOVERNANCE.md). They do not amend this ADR.
+Architecture Review remains Architecture Governance and is invoked only when
+required.
+
+---
+
 ## End of ADR-001

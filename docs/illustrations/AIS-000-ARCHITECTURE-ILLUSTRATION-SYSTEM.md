@@ -80,7 +80,7 @@ Official categories (purpose-based):
 | **Architecture** | Layers, Method/Core, pin, Entry, durable structure |
 | **Capability relationship** | Ownership, composition, feeds, non-overlap |
 | **Runtime behavioural** | Invoke / compose / skip / interrupt / complete; teaching views |
-| **Governance** | Precedence, Baseline, Policy vs Framework, Human Authority |
+| **Governance** | Precedence, Baseline, Policy vs Framework, Human Authority, stewardship lifecycle (including Design Review) |
 | **Document navigation** | README → guides → assets relationships |
 
 **Discourage as Framework defaults:** process swimlanes and lifecycle stage

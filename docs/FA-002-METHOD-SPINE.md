@@ -8,7 +8,7 @@
 | Classification | Normative Method |
 | Lifecycle Status | Accepted |
 | Phase | C1 Framework Core Assets (E2) |
-| Related | [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md); [FA-003 (Framework Overview)](./FA-003-FRAMEWORK-OVERVIEW.md); Accepted ADRs under [docs/adr/](./adr/) |
+| Related | [FA-001 (Normative Labelling Convention)](./FA-001-NORMATIVE-LABELLING-CONVENTION.md); [FA-003 (Framework Overview)](./FA-003-FRAMEWORK-OVERVIEW.md); Accepted ADRs under [docs/adr/](./adr/); [GOVERNANCE.md](./governance/GOVERNANCE.md) (Framework First Principle; Design Review — governance, not Method amendment) |
 
 ---
 

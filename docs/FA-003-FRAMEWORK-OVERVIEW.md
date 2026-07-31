@@ -143,6 +143,11 @@ Project Entry and pinned Baseline.
 8. Use the README Documentation map to distinguish Framework Assets / ADRs from
    Informative stewardship surfaces such as the Evolution Backlog and
    `docs/research/` (not pin content by default).
+9. For Framework stewardship lifecycle, Design Review, evidence categories, and
+   the Framework First Principle, see
+   [GOVERNANCE.md](./governance/GOVERNANCE.md) and
+   [GD-001](./governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md)
+   (governance — not Runtime law).
 
 This Overview is **not** an alternate starting path. Import procedures (Entry
 template, pinning how-to, Agent Pack, Getting Started) are owned by adoption
