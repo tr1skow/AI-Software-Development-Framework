@@ -275,6 +275,38 @@ or commitments to act when evidence appears.
 
 ---
 
+### 14. Interactive Human Decision Gate
+
+| Field | Value |
+| ----- | ----- |
+| **Title** | Interactive Human Decision Gate |
+| **Status** | Candidate |
+| **Origin** | Reference Implementation RI-001 (Fitness Challenge Platform) agent/human decision practice; Human Review 2026-08-02 directed retention as an early Framework Evolution Candidate. Supporting RI signals include OBS-025, OBS-027, and VALIDATION-020. Evidence is early and insufficient for Framework Evolution Assessment. |
+| **Problem Statement** | Uncertainty remains whether existing Human Authority, Decision Support, Approval, and Stop guidance already defines the agent’s interactive stop-and-resume behaviour clearly enough when a material decision is unresolved. Candidate hypothesis (not a Norm): when an agent encounters a material unresolved decision, the Framework may need clearer operational guidance requiring the agent to stop rather than infer an unauthorised decision; explain available options and consequences; provide a recommendation; ask one focused question at a time; wait for an explicit Human Decision Owner response; record the decision; and continue only within the granted authority. |
+| **Expected Investigation Type** | Later Design Investigation of Informative/operational packaging only if Maturity Trigger evidence appears. Not an ADR; not a Governance Decision; not Runtime redesign by default; not FEA-ready on current evidence. |
+| **Expected Value** | Reduce risk of unauthorised inference and inconsistent interactive decision handling without inventing new Normative ceremony from early RI friction alone. |
+| **Current Priority** | Low–Medium (memory-preserving Candidate; not active investigation) |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) two or more independent RI or Alpha sessions where agents infer material decisions despite existing Stop or Human Authority guidance; (b) repeated need for local ad-hoc interactive decision gates; (c) Framework stewards cannot identify one clear operational sequence covering question, wait, record, and bounded resume. Until then, keep as Candidate only. |
+| **Notes** | Overlaps [FA-019](./FA-019-DECISION-SUPPORT-GUIDE.md) / [FA-020](./FA-020-DECISION-SUPPORT-OUTCOME-TEMPLATE.md), [FA-015](./FA-015-APPROVAL-GUIDE.md), [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md) Stop/failure model, [Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md) Human Authority and Stop guidance, and [FA-002](./FA-002-METHOD-SPINE.md) Stop guidance. **Overlap does not close this Candidate.** Tracked by [GitHub Issue #8](https://github.com/tr1skow/AI-Software-Development-Framework/issues/8) as a durable tracking and evidence record that preserves the hypothesis and supporting evidence. Issue status does **not** imply acceptance, does **not** imply FEA readiness, and does **not** confer Normative authority. Not an accepted Framework requirement, confirmed defect, approved Norm, Governance Decision, ADR, or FEA trigger. Framework First retained: RI-001 informs; it does not redefine Framework law. |
+
+---
+
+### 15. Repository Authority Bootstrap
+
+| Field | Value |
+| ----- | ----- |
+| **Title** | Repository Authority Bootstrap |
+| **Status** | Candidate |
+| **Origin** | Reference Implementation RI-001 (Fitness Challenge Platform) Entry/pin/session practice; Human Review 2026-08-02 directed retention as an early Framework Evolution Candidate. Supporting RI signals include OBS-001, OBS-010, OBS-011, and the Framework pin-lag stewardship observation recorded during RI GD-001 Design Review for Runtime Metric Foundation Phase 6. Evidence is early and insufficient for Framework Evolution Assessment. |
+| **Problem Statement** | Uncertainty remains whether existing Entry-first, construction-pin, baseline, and authority guidance fully defines the agent’s initial authority-discovery behaviour, rather than only repository packaging and pin membership. Candidate hypothesis (not a Norm): the Framework may need a clearer operational bootstrap procedure requiring an agent to locate and read the repository entry point; identify current authoritative status and governance instructions; prioritise repository evidence over earlier prompt text and memory; stop when instructions conflict; and stop when required authority or instructions are missing. |
+| **Expected Investigation Type** | Later Design Investigation of Informative session-bootstrap packaging if Maturity Trigger evidence appears. Keep distinct from Published Consumer Baseline identity publication (item 7) unless later evidence collapses the questions. Not an ADR; not a Governance Decision; not FEA-ready on current evidence. |
+| **Expected Value** | Reduce prompt/memory over-authority and silent continuation under missing or conflicting instructions, without expanding Normative surface from early RI friction alone. |
+| **Current Priority** | Low–Medium (memory-preserving Candidate; not active investigation) |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) two or more independent sessions where prompt, chat, or memory is treated as higher authority than repository Entry, Policy, or pin; (b) agents continuing despite conflicting or missing authority instructions; (c) Framework stewards cannot identify one operational bootstrap sequence covering entry, current status, repository precedence, and Stop. Until then, keep as Candidate only. |
+| **Notes** | Overlaps [FA-005](./FA-005-LOCAL-PROJECT-ENTRY-GUIDE.md) agent discovery contract, [FA-004](./FA-004-PINNING-AND-BASELINE-GUIDE.md) construction-pin membership, [ADR-003](./adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md) and [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md), [Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md) session-start guidance, Evolution Backlog item 7, and Pull Request #4 (pin-membership clarification). **Related to item 7, but not merged into it:** item 7 concerns packaging and baseline identity; this Candidate concerns agent authority-discovery behaviour. **Overlap does not close this Candidate.** Tracked by [GitHub Issue #9](https://github.com/tr1skow/AI-Software-Development-Framework/issues/9) as a durable tracking and evidence record that preserves the hypothesis and supporting evidence. Issue status does **not** imply acceptance, does **not** imply FEA readiness, and does **not** confer Normative authority. Not an accepted Framework requirement, confirmed defect, approved Norm, Governance Decision, ADR, or FEA trigger. Framework First retained. |
+
+---
+
 ## Intentionally not listed
 
 The following were considered and **not** added for lack of sufficient distinct
@@ -301,6 +333,7 @@ Accepted architecture):
 | 2026-07-29 | Items 2 completed and 7 near-term clarity closed via Alpha Merge Readiness (README + FA-004) |
 | 2026-07-31 | Item 13 completed: GD-001 Design Review + GOVERNANCE.md (RI-001 evidence; Framework First) |
 | 2026-07-31 | Item 13 acceptance completed: GD-001 → Accepted (FEA-001; Framework v0.2.1 governance completion) |
+| 2026-08-02 | Items 14–15 added as early Candidates (Interactive Human Decision Gate; Repository Authority Bootstrap) from RI-001 + Human Review 2026-08-02; tracked by GitHub Issues [#8](https://github.com/tr1skow/AI-Software-Development-Framework/issues/8) and [#9](https://github.com/tr1skow/AI-Software-Development-Framework/issues/9); not FEA; not Normative |
 
 ---
 
