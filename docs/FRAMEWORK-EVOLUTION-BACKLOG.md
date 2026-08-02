@@ -143,7 +143,7 @@ or commitments to act when evidence appears.
 | **Expected Value** | Reduce uncertainty about what a new organisation should experience at Alpha vs Beta vs 1.0 without raising adoption ceremony. |
 | **Current Priority** | Medium |
 | **Maturity Trigger** | Timely when **any** of these are observed: (a) two or more organisations complete (or attempt) the Alpha Adoption Guide and report the same onboarding confusion; (b) newcomers repeatedly treat the Alpha Adoption Guide as permanent Getting Started despite its temporary banner; (c) consumer-surface clarity work (item 7) exposes unresolved adoption-path gaps that construction-pin docs cannot answer. |
-| **Notes** | [Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md); [Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md); ecosystem Design Investigation §6; README maturity / 1.0 positioning. |
+| **Notes** | [Alpha Adoption Guide](./adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md); [Invocation Guide](./FRAMEWORK-INVOCATION-GUIDE.md); ecosystem Design Investigation §6; README maturity / 1.0 positioning. A future permanent Getting Started experience should **link to or consume** the practical AI-context packaging owned by item 6 (AI Context Communication), without duplicating that packaging or treating RI-001 examples as Norms. |
 
 ---
 
@@ -159,7 +159,7 @@ or commitments to act when evidence appears.
 | **Expected Value** | Reduce uncertainty about how agents receive Framework context without violating tool neutrality or creating a prompt-pack Framework. |
 | **Current Priority** | Medium |
 | **Maturity Trigger** | Timely when **any** of these are observed: (a) repeated AI-agent sessions invent a rival instruction root despite Local Project Entry + Invocation Guide; (b) two or more independent tool/prompt packs package conflicting Framework context; (c) multiple Alpha/RI reports show agents skipping governance-root discovery as a recurring failure mode. |
-| **Notes** | [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md); [Invocation Guide §9](./FRAMEWORK-INVOCATION-GUIDE.md); [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) (Agent Collaboration packaging); README 1.0 Agent Pack positioning. |
+| **Notes** | [ADR-004](./adr/ADR-004-AGENT-INTERACTION-MODEL.md); [Invocation Guide §9](./FRAMEWORK-INVOCATION-GUIDE.md); [M2 Declaration](./governance/RUNTIME-FOUNDATION-M2-DECLARATION.md) (Agent Collaboration packaging); README 1.0 Agent Pack positioning. **RI-001 evidence (2026-08-02 assessment; tip `37a201ce13242069f5355eb269fd92a59c7ec8b3`; Framework baseline v0.2.1):** Normative coverage of authority, repository-first discovery, Stop, and Human Authority is **adequate** (ADR-003/004, FA-005, Invocation, Method Spine). Practical day-to-day AI-assistant packaging remains **incomplete**. Identified Informative packaging needs (not Norms; not FEA-ready): thin configurable agent-instruction template; tool-neutral recommended role patterns; persistent-vs-task context guidance; write-boundary guidance; short repository-first prompt guidance; anti-pattern teaching; linked RI examples. RI-001 Entry / Policy / thin agent instructions / VALIDATION-021 / observations remain **Informative evidence only** and must **not** become Framework Norms. Related Candidates: item 5 (future Getting Started should consume this packaging); item 15 / [Issue #9](https://github.com/tr1skow/AI-Software-Development-Framework/issues/9) (repository-authority bootstrap); item 14 / [Issue #8](https://github.com/tr1skow/AI-Software-Development-Framework/issues/8) (interactive Human Decision Gate). **Maturity Trigger not yet met** on current single-RI evidence. Status remains **Candidate**. Not Ready for Investigation; not FEA; no Normative change. |
 
 ---
 
@@ -334,6 +334,7 @@ Accepted architecture):
 | 2026-07-31 | Item 13 completed: GD-001 Design Review + GOVERNANCE.md (RI-001 evidence; Framework First) |
 | 2026-07-31 | Item 13 acceptance completed: GD-001 → Accepted (FEA-001; Framework v0.2.1 governance completion) |
 | 2026-08-02 | Items 14–15 added as early Candidates (Interactive Human Decision Gate; Repository Authority Bootstrap) from RI-001 + Human Review 2026-08-02; tracked by GitHub Issues [#8](https://github.com/tr1skow/AI-Software-Development-Framework/issues/8) and [#9](https://github.com/tr1skow/AI-Software-Development-Framework/issues/9); not FEA; not Normative |
+| 2026-08-02 | Item 6 Notes updated with RI-001 practical AI-context packaging assessment evidence (status remains Candidate; Maturity Trigger unmet). Item 5 Notes updated so a future Getting Started experience links to / consumes item 6 packaging. No FEA; no Design Investigation; not Normative |
 
 ---
 
