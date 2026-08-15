@@ -15,6 +15,9 @@ the repository). Jenkins (or any CI) is an **executor only**.
 
 ## Local usage
 
+Prerequisite: **Node.js 20 or newer** (matches the pinned
+`markdownlint-cli2` / `markdownlint` engine requirement).
+
 From this directory:
 
 ```bash
