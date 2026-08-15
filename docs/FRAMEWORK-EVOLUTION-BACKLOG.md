@@ -307,6 +307,22 @@ or commitments to act when evidence appears.
 
 ---
 
+### 16. Verification Falsifiability and Evidence-Claim Traceability
+
+| Field | Value |
+| ----- | ----- |
+| **Title** | Verification Falsifiability and Evidence-Claim Traceability |
+| **Status** | Candidate |
+| **Origin** | Reference Implementation RI-001 (Fitness Challenge Platform), especially OBS-038 and BETA-CAND-002. Across VALIDATION-021, 022, 023, 025–028, 030–031, 033–034, 036–039, 041–044, 046–047, green or syntactically passing verification repeatedly failed to semantically falsify the claimed invariant until review forced stronger evidence. The RI aggregation classifies this as a moderate-to-strong recurring signal, but evidence is still from one official RI. |
+| **Problem Statement** | Uncertainty remains whether the Framework's existing Review and Verification guidance makes the distinction sufficiently operational between evidence that is merely green/passing and evidence that can actually falsify the specific claim or prohibited behaviour being relied upon. The recurring RI failures may indicate a documentation/operational clarity gap, but they may also remain implementation-quality failures adequately handled by current Review. |
+| **Expected Investigation Type** | Later Design Investigation of Review/Verification guidance only if the Maturity Trigger is met. Do not prescribe project-specific test patterns, require more tests by default, or convert RI implementation examples into Framework law. Not an ADR; not a Governance Decision; not FEA-ready on current single-RI evidence. |
+| **Expected Value** | Reduce false confidence from green-but-non-falsifying evidence while preserving proportional verification, tool neutrality, and project freedom in test technique. |
+| **Current Priority** | Medium (evidence-rich Candidate; not active investigation) |
+| **Maturity Trigger** | Timely when **any** of these are observed: (a) a second independent RI or Alpha adopter reports the same green-but-non-falsifying evidence pattern; (b) Framework reviewers repeatedly disagree on whether FA-013 / FA-011 already require claim-specific semantic falsifiability; (c) a concrete Beta/1.0 assurance discussion cannot defend verification claims using current guidance without adding ad-hoc local rules. Until then, retain as Candidate only. |
+| **Notes** | RI-001 source evidence is pinned to Fitness Challenge Platform commit [`936aa70e5e3fecb7c117d63ef696ccd3cd081b5f`](https://github.com/tr1skow/Fitness-challenge-platform/tree/936aa70e5e3fecb7c117d63ef696ccd3cd081b5f): [OBS-038 in `observations.md`](https://github.com/tr1skow/Fitness-challenge-platform/blob/936aa70e5e3fecb7c117d63ef696ccd3cd081b5f/docs/reference-implementation/observations.md) and [BETA-CAND-002 in `beta-candidates.md`](https://github.com/tr1skow/Fitness-challenge-platform/blob/936aa70e5e3fecb7c117d63ef696ccd3cd081b5f/docs/reference-implementation/beta-candidates.md). The RI repository is private, so these links provide immutable provenance for authorised stewards but are not a public evidence surface for external readers; public contributor/evidence intake and portability is separately tracked in [Issue #14](https://github.com/tr1skow/AI-Software-Development-Framework/issues/14). The RI explicitly classifies OBS-038 as Implementation-only and BETA-CAND-002 as aggregation only; this backlog item preserves the uncertainty upstream without reclassifying the RI evidence as a Framework defect. No GitHub Issue is created for item 16 at intake. Issue tracking for this candidate may be added later only if active investigation or a separate durable tracking need is justified. |
+
+---
+
 ## Intentionally not listed
 
 The following were considered and **not** added for lack of sufficient distinct
@@ -336,6 +352,7 @@ Accepted architecture):
 | 2026-08-02 | Items 14–15 added as early Candidates (Interactive Human Decision Gate; Repository Authority Bootstrap) from RI-001 + Human Review 2026-08-02; tracked by GitHub Issues [#8](https://github.com/tr1skow/AI-Software-Development-Framework/issues/8) and [#9](https://github.com/tr1skow/AI-Software-Development-Framework/issues/9); not FEA; not Normative |
 | 2026-08-02 | Item 6 Notes updated with an RI-001 evidence note recorded 2026-08-02 from repository inspection of tip `37a201ce13242069f5355eb269fd92a59c7ec8b3` (this Notes field is the durable record; no separate assessment artefact). Item 5 Notes updated so a future Getting Started experience links to / consumes item 6 packaging. Status remains Candidate; Maturity Trigger unmet. No FEA; no Design Investigation; not Normative |
 | 2026-08-02 | Item 6 Notes / change-log provenance corrected for Human Review HR-11-01..03: clarify no separate assessment artefact; separate steward synthesis from repository sources; add tip-pinned RI links (Entry, agent instructions, OBS-001 / OBS-007). Status and Maturity Triggers unchanged |
+| 2026-08-16 | Item 16 added as Candidate: Verification Falsifiability and Evidence-Claim Traceability, from RI-001 OBS-038 / BETA-CAND-002 recurring evidence; no GitHub Issue at intake; not FEA; not Normative |
 
 ---
 
