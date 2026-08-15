@@ -1,0 +1,16 @@
+{
+  "name": "framework-docs-assurance",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic Framework Documentation Assurance (repository-owned validator)",
+  "type": "module",
+  "scripts": {
+    "validate": "node validate.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.18.1"
+  }
+}

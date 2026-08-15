@@ -1,0 +1,53 @@
+// Framework Documentation Assurance — Jenkins executor only.
+// Validation rules and entrypoint: tools/framework-docs/
+pipeline {
+  agent {
+    label 'synology-agent-01'
+  }
+
+  options {
+    timestamps()
+    disableConcurrentBuilds()
+  }
+
+  stages {
+    stage('Checkout') {
+      steps {
+        checkout scm
+      }
+    }
+
+    stage('Identify commit') {
+      steps {
+        script {
+          env.DOCS_COMMIT_SHA = sh(
+            script: 'git rev-parse HEAD',
+            returnStdout: true
+          ).trim()
+          echo "Checked-out commit SHA: ${env.DOCS_COMMIT_SHA}"
+        }
+      }
+    }
+
+    stage('Validate documentation') {
+      steps {
+        dir('tools/framework-docs') {
+          sh 'npm ci'
+          sh 'npm run validate'
+        }
+      }
+    }
+  }
+
+  post {
+    success {
+      echo "Framework Documentation Assurance: PASS (commit ${env.DOCS_COMMIT_SHA})"
+    }
+    failure {
+      echo "Framework Documentation Assurance: FAIL (commit ${env.DOCS_COMMIT_SHA})"
+    }
+    aborted {
+      echo "Framework Documentation Assurance: ABORTED (commit ${env.DOCS_COMMIT_SHA})"
+    }
+  }
+}
