@@ -4,7 +4,7 @@
 | --------- | ----- |
 | Document | External Observation Intake |
 | Classification | Informative / Reference (repository stewardship) |
-| Status | Proposed — Human acceptance required |
+| Status | Published — repository stewardship |
 | Framework baseline | Framework v0.2.1; Runtime Foundation M2 |
 | Related | [Issue #14](https://github.com/tr1skow/AI-Software-Development-Framework/issues/14); [GOVERNANCE.md](./GOVERNANCE.md); [Evolution Backlog](../FRAMEWORK-EVOLUTION-BACKLOG.md) item 11; [GD-001](./GOVERNANCE_DECISIONS/GD-001-Design-Review.md); README Contributing |
 | Kind | Official Framework repository stewardship note — **not** a Framework Asset, ADR, Governance Decision, Method amendment, or Runtime requirement |
@@ -20,7 +20,7 @@ disagree, the Accepted ADRs and labelled Framework Assets are authoritative.
 
 ---
 
-## 1. Stewardship decision (proposed)
+## 1. Stewardship decision
 
 **Recommended contributor-facing intake:** open a GitHub Issue on this
 repository, optionally using the **Framework observation** Issue form.

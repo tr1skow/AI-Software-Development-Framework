@@ -70,13 +70,3 @@ body:
       placeholder: e.g. Informative clarification only; no Normative change
     validations:
       required: false
-
-  - type: checkboxes
-    id: non_claims
-    attributes:
-      label: Non-claims acknowledgement
-      options:
-        - label: I understand this Issue is not Framework authority and does not by itself create Norms, Evolution Backlog items, or approved Framework changes.
-          required: true
-        - label: I have not included secrets, credentials, or non-public personal/production data.
-          required: true
