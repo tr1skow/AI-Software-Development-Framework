@@ -170,7 +170,7 @@ self-evolution by default, and **not** a production-ready, Beta, or Framework
 | Establish Project Integration (pin, Entry, Policy, checklist) | Treat this repo as a complete production-ready importable kit |
 | Run Framework-governed changes along the Runtime Execution Spine | Expect a published public consumer Baseline |
 | Bind Discovery when understanding must be established | Claim Framework 1.0 or full product adoption |
-| Use the Fitness Challenge Platform as the reference implementation under Framework governance | Treat README wording as Normative Method or Core law |
+| Use official Reference Implementations under Framework governance for validation evidence | Treat README wording, RI designation, or RI evidence as Normative Method or Core law |
 
 ---
 
@@ -283,10 +283,26 @@ Allocation state:
 
 ---
 
-## Fitness Challenge Platform
+## Official Reference Implementations
 
-The **Fitness Challenge Platform** is the **first official reference
-implementation** of this Framework.
+*Informative / Reference discovery surface only.* Official designation names
+stewardship and validation priority. It does **not** confer Normative Framework
+authority, prove Framework correctness, imply production readiness, or replace
+a consuming project’s own pin, Local Project Entry, or Project Policy.
+Reference Implementations remain Informative under [FA-002](docs/FA-002-METHOD-SPINE.md)
+(Examples Are Not Norms) and the
+[Framework First Principle](docs/governance/GOVERNANCE.md#framework-first-principle).
+Evidence may inform Framework evolution only through Framework classification,
+review, and Human Decision processes — never by designation alone.
+
+Delivery-context labels below describe **distinct validation contexts**. They
+are not a mandatory RI taxonomy, registry, or numbering scheme. No `RI-002` /
+`RI-003` / `RI-004` identifiers are assigned by this surface.
+
+### Fitness Challenge Platform — first official Reference Implementation
+
+The **Fitness Challenge Platform** is the **first official Reference
+Implementation** of this Framework.
 
 | Role | Statement |
 | --- | --- |
@@ -294,9 +310,30 @@ implementation** of this Framework.
 | Validation | The project validates and matures the Framework |
 | Feedback | Lessons feed back into the Framework before Beta and later v1.0 |
 
-It is a reference implementation — **not** Framework Normative law, not a rival
+Canonical repository: [`tr1skow/Fitness-challenge-platform`](https://github.com/tr1skow/Fitness-challenge-platform).
+
+It is a Reference Implementation — **not** Framework Normative law, not a rival
 Local Project Entry, and not a substitute for pinning a Baseline on a consuming
 project.
+
+### Additional official Reference Implementations
+
+Human Decision Owner designations for further official Reference Implementations.
+Each project keeps its own Entry, Policy, pins, and product architecture.
+
+| Project | Repository | Official designation | Validation context | Tracker |
+| --- | --- | --- | --- | --- |
+| **SafeHouse Vagtplan** | [`tr1skow/SH-vagtplan-app`](https://github.com/tr1skow/SH-vagtplan-app) | Official brownfield Reference Implementation | Live brownfield production adoption and modernization under Framework governance | [#23](https://github.com/tr1skow/AI-Software-Development-Framework/issues/23) |
+| **Budget Buddy** | [`tr1skow/Budget-buddy`](https://github.com/tr1skow/Budget-buddy) | Official brownfield Reference Implementation | Existing brownfield product adopting repository-first Framework governance | [#24](https://github.com/tr1skow/AI-Software-Development-Framework/issues/24) |
+| **Vagtplan App** | [`tr1skow/vagtplan_app`](https://github.com/tr1skow/vagtplan_app) | Official greenfield Reference Implementation | Greenfield / productization-discovery under Framework governance — not a production-readiness claim | [#27](https://github.com/tr1skow/AI-Software-Development-Framework/issues/27) |
+
+Project-specific technical decisions, operating practices, tools, and
+repository conventions remain **project-owned**. They do not become Framework
+standards by virtue of official RI designation.
+
+Project-local discovery docs may still need reconciliation after this public
+Framework surface is accepted; trackers #23, #24, and #27 remain open until
+those project-side updates are complete under each project’s governance.
 
 ---
 
