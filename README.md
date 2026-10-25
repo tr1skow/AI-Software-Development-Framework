@@ -410,6 +410,21 @@ and evidence-backed backlog candidates from real application.
 `docs/research/` holds Informative investigation and review material. It is
 **not** Framework law and must not be treated as a second Normative root.
 
+### External observations (no repository write required)
+
+To report a Framework-behaviour observation or evidence signal **without**
+opening a branch, commit, or pull request: create a GitHub Issue on this
+repository. An optional **Framework observation** Issue form is available; blank
+Issues remain allowed.
+
+Filing an observation is **not** Framework authority. It does **not** create
+Norms, Evolution Backlog items, or approved changes. Stewards may close, defer,
+or mark duplicates without any Framework product change.
+
+Repository-local intake and triage rules (Informative stewardship — not Method
+law): [External Observation Intake](docs/governance/EXTERNAL-OBSERVATION-INTAKE.md).
+Tracked by [Issue #14](https://github.com/tr1skow/AI-Software-Development-Framework/issues/14).
+
 ---
 
 ## License

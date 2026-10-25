@@ -1,0 +1,82 @@
+name: Framework observation
+description: >
+  Submit an external observation or evidence signal about Framework behaviour.
+  Optional structured form — blank Issues remain allowed. Filing is not Framework
+  authority and does not create Norms, backlog items, or approved changes.
+title: "[Observation]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. This Issue is **raw intake** for Framework stewards.
+
+        - It is **not** Framework law and does **not** approve a Framework change.
+        - Prefer stable public links (commits, PRs, releases, public docs) over private or ephemeral chat.
+        - Do not paste secrets, credentials, personal data, or private production details.
+        - Steward triage may close, defer, mark duplicate, or (only with evidence) promote into existing evolution surfaces — see [External Observation Intake](https://github.com/tr1skow/AI-Software-Development-Framework/blob/main/docs/governance/EXTERNAL-OBSERVATION-INTAKE.md).
+
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation
+      description: What did you observe about Framework behaviour, guidance, or adoption friction?
+      placeholder: Concise factual observation…
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence links
+      description: >
+        Stable public references if available (commit/tree URLs, PRs, releases,
+        public Issues, public docs). Private links may help stewards with access
+        but are not a public evidence surface.
+      placeholder: |
+        - https://…
+    validations:
+      required: false
+
+  - type: dropdown
+    id: evidence_strength
+    attributes:
+      label: Evidence strength (self-assessed)
+      options:
+        - Supporting public evidence linked
+        - Partial / informal evidence
+        - Suggestion without verifiable evidence yet
+        - Duplicate of an existing Issue or backlog item (link below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related Issues, PRs, or backlog items
+      description: Search first. Link anything that already covers this signal.
+      placeholder: e.g. #26, PR #25, Evolution Backlog item N
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggested_disposition
+    attributes:
+      label: Suggested steward disposition (optional)
+      description: >
+        Your preference only — stewards decide. Examples close / defer /
+        duplicate / Informative docs only / open assessment Issue / Evolution
+        Backlog candidate (evidence-backed).
+      placeholder: e.g. Informative clarification only; no Normative change
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: non_claims
+    attributes:
+      label: Non-claims acknowledgement
+      options:
+        - label: I understand this Issue is not Framework authority and does not by itself create Norms, Evolution Backlog items, or approved Framework changes.
+          required: true
+        - label: I have not included secrets, credentials, or non-public personal/production data.
+          required: true

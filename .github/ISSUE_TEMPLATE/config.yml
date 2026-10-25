@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Framework starting point
+    url: https://github.com/tr1skow/AI-Software-Development-Framework#readme
+    about: README is the official landing hub — not Framework law.
+  - name: Evolution Backlog (candidates, not raw inbox)
+    url: https://github.com/tr1skow/AI-Software-Development-Framework/blob/main/docs/FRAMEWORK-EVOLUTION-BACKLOG.md
+    about: Evidence-backed evolution candidates only. Do not file raw observations here as PRs unless stewarding a candidate.
+  - name: External Observation Intake (stewardship)
+    url: https://github.com/tr1skow/AI-Software-Development-Framework/blob/main/docs/governance/EXTERNAL-OBSERVATION-INTAKE.md
+    about: Repository-local intake rules, triage, and non-claims.
