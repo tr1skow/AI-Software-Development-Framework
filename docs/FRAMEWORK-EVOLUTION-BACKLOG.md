@@ -239,7 +239,7 @@ or commitments to act when evidence appears.
 | **Expected Value** | Would reduce loss of observations — at the cost of new structure; deferred to preserve minimal governance. |
 | **Current Priority** | Low |
 | **Maturity Trigger** | Timely when **any** of these are observed: (a) the same observation reappears as a new investigation because prior notes could not be found; (b) two stewards independently cannot locate prior Alpha/RI feedback that affected a Framework change; (c) this Evolution Backlog repeatedly fails as a sufficient home for candidate-level memory and raw observations are being lost. Until informal capture (issues, research docs, backlog) demonstrably fails, keep deferred. |
-| **Notes** | Ecosystem Design Investigation Open Question 5; Engineering Review warns against creating Observation Catalogues from justification alone. This backlog itself is a lighter Informative alternative for *evolution candidates*, not raw observations. |
+| **Notes** | Ecosystem Design Investigation Open Question 5; Engineering Review warns against creating Observation Catalogues from justification alone. This backlog itself is a lighter Informative alternative for *evolution candidates*, not raw observations. Repository-local lightweight intake for raw external observations is documented in [EXTERNAL-OBSERVATION-INTAKE.md](./governance/EXTERNAL-OBSERVATION-INTAKE.md) ([Issue #14](https://github.com/tr1skow/AI-Software-Development-Framework/issues/14)); that intake is **not** an Observation Catalogue and does **not** by itself meet this item’s Maturity Trigger. Status remains **Deferred**. |
 
 ---
 
