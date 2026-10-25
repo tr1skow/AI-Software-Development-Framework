@@ -5,7 +5,7 @@
 | Document | AI Software Development Framework Whitepaper |
 | Version | v0.2.1 |
 | Classification | Informative / Reference |
-| Status | Publication candidate — WP-A5 editorial complete |
+| Status | Publication candidate — architecture clarification pass |
 | Framework baseline | Framework v0.2.1; Runtime Foundation M2 |
 
 **This whitepaper is Informative / Reference.** It is not Normative Method, not
@@ -17,7 +17,9 @@ Baseline.
 ADRs and labelled Framework Assets are authoritative.**
 
 This whitepaper documents the AI Software Development Framework as of
-**Framework v0.2.1**.
+**Framework v0.2.1** (the official development baseline). The temporary
+**Framework 0.7 Alpha** evaluation packaging (Adoption Guide) is not a second
+Baseline identity and does not redefine this document’s version.
 
 ---
 
@@ -111,6 +113,7 @@ As of this whitepaper:
 | **Architecture Foundation** | ADR-001–004 Accepted |
 | **Runtime Foundation M2** | Declared — Runtime-essential ownership gaps closed (Runtime Execution Spine + Discovery) |
 | **Framework v0.2.1** | Official **development baseline** for evolution and the first official reference implementation |
+| **Framework 0.7 Alpha** | Temporary evaluation packaging under v0.2.1 — not a second Baseline; not declared Beta |
 
 **Runtime Execution Spine Complete ≠ Runtime Foundation M2.** Spine Complete
 closed spine ownership; M2 additionally required Discovery as Runtime-essential
@@ -160,6 +163,10 @@ explaining:
 - what it is,
 - and where its normative definition lives.
 
+This document is an **architectural narrative**. It is not a technical API
+specification, not an error-code catalogue, not a machine contract, and not a
+substitute for the labelled Runtime assets that own operational detail.
+
 This Reading Guide is an Informative aid only. It does not define Framework
 behaviour.
 
@@ -190,11 +197,16 @@ knowing exactly where binding definitions live when decisions must be made.
 | A guide for evaluating the Framework | A Local Project Entry or agent instruction root |
 | A map into ADRs and Framework Assets | A substitute for those documents |
 | Versioned with the Framework development baseline | A daily living operations manual |
+| Orientation for technical decision-makers | A technical API, SDK, or error-handling specification |
+| A narrative of demonstrated Architecture Foundation maturity | A claim of Framework 1.0 or production readiness |
 
 Day-to-day application of the Framework uses the published Framework Assets
 (for example [FA-003 (Framework Overview)](../FA-003-FRAMEWORK-OVERVIEW.md)
 and the capability guides) under a pinned Baseline. Architectural decisions
-remain in Accepted ADRs under [`docs/adr/`](../adr/).
+remain in Accepted ADRs under [`docs/adr/`](../adr/). Operational invocation
+after Project Integration is documented in the
+[Framework Invocation Guide](../FRAMEWORK-INVOCATION-GUIDE.md) — also
+Informative / Reference, not a second Normative root.
 
 ### Who should read it
 
@@ -762,6 +774,32 @@ acceptance; it prevents false progress.
 
 **Where.** ADR-001; Method in FA-002; Stop cues across Runtime assets.
 
+### Representative failure conditions (Informative)
+
+**Why.** Readers otherwise invent Runtime failure semantics from tooling
+habits — retry loops, vendor error codes, or “always continue with a warning.”
+
+**What.** The following conditions are **representative** illustrations of
+when Framework-governed work Stops or Escalates. They are not an exhaustive
+API, not a message schema, and not new Runtime law. Exact operational cues
+live in the cited authorities.
+
+| Representative condition | Architectural response | Primary authority |
+| ------------------------ | ---------------------- | ----------------- |
+| Material unknowns would force silent invention of requirements, architecture, or contracts | Interrupt; surface unknowns; do not invent | FA-002 (Explicit Uncertainty and Safe Stopping); ADR-001 Runtime interrupt |
+| Precedence cannot be determined; conflicting local roots or unresolved policy conflict | Stop/Escalation — no invented resolution | ADR-003 failure and stop conditions; ADR-004 discovery/precedence |
+| No Baseline pin knowable, conflicting pins, or false Baseline claim | Stop until pin/identity is coherent | ADR-003 §10; ADR-002 pin invariants |
+| Decision Owner missing for material work or material acceptance | Stop — no agent self-approval | ADR-003; ADR-004 failure model; FA-009 / FA-015 |
+| Effective Classification missing, incomplete, or superseded while work continues | Not ready to execute / interrupt; reclassify | FA-009 ready-to-execute gate and reclassification |
+| Agent unavailable for required participation with no human substitute | Human substitutes, or Stop if participation cannot be met | ADR-004 failure model |
+| Agent exceeds authority or contradicts Core / Project Policy | Invalid; Stop/Escalate; outcomes not accepted | ADR-004 failure model |
+
+Unbound capabilities are **skipped** under Classification; that is not a
+failure. Stop is reserved for unsafe continuation, unresolved authority, or
+missing mandatory inputs — not for every inconvenience.
+
+**Where.** ADR-001; ADR-003 §10; ADR-004 §9; FA-002; FA-009.
+
 ### Why Runtime remains tool-neutral
 
 **Why.** If Runtime were defined as a vendor agent loop, the Framework would
@@ -1017,24 +1055,78 @@ guide.
 Documentation is not behaviour. Confusing these layers recreates “docs as law”
 and “chat as Root.”
 
+### Governance boundary — semantics, catalogue, implementation, project
+
+**Why.** “Capability-based” is easy to misread as *projects may invent unlimited
+first-class capabilities and bind them into Runtime*. That reading collapses
+interoperability (ADR-001 rejected an open-ended catalogue for that reason).
+
+**What.** Keep these concerns distinct:
+
+| Concern | Meaning | Who may change it |
+| ------- | ------- | ----------------- |
+| **Capability Semantics** | What a capability *is*; composition meta-rules; Runtime semantic law | ADR amendment of Core semantics |
+| **Baseline Capability Catalogue** | Which first-class capabilities Framework interoperability requires | Versioned, ADR-governed catalogue / Framework decision |
+| **Implementation of an existing catalogue member** | Guides, templates, checklists, agent-instruction sections that realise a catalogue capability | Framework Asset evolution under Baseline publication rules; does **not** redefine Capability Semantics |
+| **Project Policy specialisation** | Local thresholds, label maps, agent constraints, fallback-review within Method/Core invariants | Consuming project (ADR-003 / FA-009); must not weaken protected invariants |
+| **Tool adapters** | Informative mappings onto a vendor or IDE | Optional adjuncts; never outrank Core or Project Policy (ADR-002 / ADR-003) |
+| **Project-specific engineering behaviour outside the catalogue** | Local engineering practice that is not a Baseline catalogue member | Project-owned; **not** a first-class Framework Runtime capability |
+
+**Normative Runtime binding** — what Classification marks required / not
+required / interrupt-available — applies to **Baseline catalogue capabilities**
+under the pinned Baseline ([ADR-001](../adr/ADR-001-FRAMEWORK-CORE-SEMANTICS.md);
+[FA-009](../FA-009-CHANGE-CLASSIFICATION-GUIDE.md)). Project-specific practices
+outside that catalogue do **not** participate directly in that normative
+binding set merely because a project finds them useful. Adding a *new*
+first-class catalogue member is an ADR-governed Framework evolution act — not
+silent Project Policy authoring and not a whitepaper extension protocol.
+
+**Where.** ADR-001 §§1–2 and catalogue amendment; ADR-003 Project Policy
+boundary; FA-009 binding model and specialisation boundary; FA-001 / FA-002 on
+adapters and examples.
+
+### Permitted implementation variation (Informative example)
+
+**Why.** Readers otherwise assume either (a) every project must clone Framework
+Asset prose verbatim, or (b) projects may invent peer Runtime capabilities at
+will.
+
+**What.** *Informative only — not a Normative procedure.*
+
+A project may, for example, specialise Review independence thresholds and
+fallback-review wording in Project Policy, and may use a tool adapter to help
+agents locate the Local Project Entry — while still binding the same catalogue
+**Review** capability under Effective Classification, at a knowable depth, with
+material Approval remaining human. That is permitted variation of
+*implementation and specialisation*. Inventing a new first-class capability
+named “Ship Fast” and treating it as Classification-bound Runtime law without
+catalogue amendment is **not** that pattern.
+
+**Where.** ADR-001 (new implementation ≠ new semantics); ADR-003 permitted
+specialisation; FA-009 Projects MAY / MUST NOT.
+
 ### Why this architecture improves long-term evolution
 
 **Why.** AI tools, org shapes, and delivery styles will keep changing.
 
 **What.** Capability-based architecture allows the Framework to evolve by
-**extending or refining individual capabilities** without redesigning the
-architecture as a whole.
+**refining implementations of existing capabilities**, and — when justified —
+by **ADR-governed catalogue or semantics amendment**, without redesigning the
+architecture as a whole and without treating every project customisation as a
+Core change.
 
 Concretely, the Framework can:
 
 - deepen or refine individual guides without rewriting Core semantics;
 - add adoption surfaces without inventing a new Runtime;
 - keep Human Authority and ownership boundaries stable while examples and
-  reference implementations evolve.
+  reference implementations evolve;
+- amend catalogue membership only through versioned Framework / ADR decisions
+  (not through silent authoring or Project Policy).
 
 That is the Stable vs Evolvable separation from Architecture Overview, applied
 at the capability layer: durable concepts in ADRs and Method; evolvable
-guidance in Assets.
+guidance in Assets; closed catalogue discipline for interoperability.
 
 ### What comes next
 
@@ -1343,8 +1435,15 @@ Framework Normative content. They do not rival Local Project Entry, redefine
 Runtime or Method, or substitute for a consuming project’s own pin and
 adoption. Framework Assets and Accepted ADRs remain the authority.
 
+They are also **not mandatory technical templates**. Adopters must not treat
+RI repository layout, product stack, CI choices, prompt files, or local
+engineering conventions as Framework Normative requirements. Precedence places
+examples and reference implementations below Framework normative content and
+Project Policy ([ADR-003](../adr/ADR-003-PROJECT-INTEGRATION-AND-PRECEDENCE.md)).
+
 **Where.** FA-001; FA-002 (examples and reference implementations Informative
-on conflict); ADR-001–004 non-claims regarding project content as norms.
+on conflict); ADR-001–004 non-claims regarding project content as norms;
+ADR-003 precedence layers.
 
 ### Fitness Challenge Platform as first official reference implementation
 
@@ -1366,7 +1465,8 @@ implementation**. The relationship is deliberate and memorable:
 | Feedback | Lessons feed back into Framework evolution |
 
 It adopts like any consuming project. It does not become a second source of
-Framework truth.
+Framework truth. “Official” names stewardship and validation priority — not
+Normative force and not a required clone target.
 
 **Where.** [Runtime Foundation M2 Declaration](../governance/RUNTIME-FOUNDATION-M2-DECLARATION.md);
 README Fitness Challenge section (Informative landing).
@@ -1387,6 +1487,10 @@ law-making to the project. The **Framework First Principle** requires that
 governance, methodology, or process improvements be incorporated into the
 Framework before any Reference Implementation adopts them
 ([GOVERNANCE.md](../governance/GOVERNANCE.md)).
+
+Evidence and feedback from an RI may *justify* Framework evolution. They do
+not themselves amend Capability Semantics, catalogue membership, Runtime verbs,
+or Method Spine text.
 
 **Where.** [GOVERNANCE.md](../governance/GOVERNANCE.md); [GD-001](../governance/GOVERNANCE_DECISIONS/GD-001-Design-Review.md);
 M2 Declaration feedback role; FAIS / ADR process — not this whitepaper.
@@ -1485,25 +1589,30 @@ claim complete Runtime, full enhancing/adoption surfaces, or Framework 1.0.
 
 **Where.** M2 Declaration (authoritative for this milestone distinction).
 
-### Framework v0.2.1, Beta, and 1.0
+### Framework v0.2.1, 0.7 Alpha packaging, Beta, and 1.0
 
 **Why.** Release labels without shared meaning become marketing noise —
-especially when AI tooling culture rewards premature “1.0”.
+especially when AI tooling culture rewards premature “1.0”, and when temporary
+evaluation packaging shares a number family with a later Beta milestone.
 
-**What.** Positioning only (not a commitment schedule):
+**What.** Positioning only (not a commitment schedule; no new version domain):
 
-| Baseline | Positioning |
-| -------- | ------------ |
-| **Framework v0.2.1** (current official development baseline) | Runtime Foundation M2; GD-001 Accepted; suitable to evolve the Framework and run the first official reference implementation under honest constraints |
-| **Framework 0.7 Beta** | Broader trial maturity (for example preferred strengthening of Stop consolidation and agent participation surfaces) — **not declared** |
-| **Framework 1.0** | Published consumer Baseline; importable kit / Getting Started; Agent Pack; stated adoption claims defensible — **not declared** |
+| Label | Kind | Positioning |
+| ----- | ---- | ------------ |
+| **Framework v0.2.1** | Official **development baseline** | Runtime Foundation M2; GD-001 Accepted; suitable to evolve the Framework and run the first official reference implementation under honest constraints |
+| **Framework 0.7 Alpha** | Temporary **evaluation packaging** name | The [Framework 0.7 Alpha Adoption Guide](../adoption/FRAMEWORK-0.7-ALPHA-ADOPTION-GUIDE.md) is Informative / Reference packaging for first-time evaluation under **v0.2.1**. It is not a second Baseline identity, not Normative Framework law, and not a permanent Getting Started kit |
+| **Framework 0.7 Beta** | Future maturity milestone | Broader trial maturity (for example preferred strengthening of Stop consolidation and agent participation surfaces) — **not declared** |
+| **Framework 1.0** | Future maturity milestone | Published consumer Baseline; importable kit / Getting Started; Agent Pack; stated adoption claims defensible — **not declared** |
 
-Alpha means a serious development baseline. It does **not** mean
-production-ready Framework, complete Runtime, Beta, 1.0, or a published public
-consumer Baseline. Advancing a version label later will still require
-demonstrated capability — not the label alone.
+**Do not conflate** “0.7 Alpha” packaging with Framework v0.2.1 Baseline
+identity, and do not treat “0.7 Alpha” as declared “0.7 Beta.” Alpha, in this
+maturity chapter, means a serious **development baseline** under honest
+non-claims. It does **not** mean production-ready Framework, complete Runtime,
+Beta, 1.0, or a published public consumer Baseline. Advancing a version label
+later will still require demonstrated capability — not the label alone.
 
-**Where.** M2 Declaration; README roadmap (positioning only).
+**Where.** M2 Declaration; README roadmap and Adoption section (positioning
+only); Framework 0.7 Alpha Adoption Guide status block.
 
 ### Stable versus evolving areas
 
@@ -1675,4 +1784,6 @@ with governance.
 
 ---
 
-<!-- WP-A5 editorial polish complete. Publication candidate pending human approval. -->
+<!-- Architecture clarification pass (capability boundaries, RI non-normativity,
+     Stop illustrations, narrative scope, 0.7 Alpha vs v0.2.1). Publication
+     candidate pending human approval. No Normative ADR/Asset amendments. -->
