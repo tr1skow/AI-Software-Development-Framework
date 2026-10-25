@@ -10,9 +10,11 @@
 | Kind | Coordinated RI evidence assessment with **two independent** dispositions — **not** an ADR, Framework Asset, FEA, Governance Decision, or Normative amendment |
 
 **Investigation only.** This report does **not** assume either Candidate is a
-Framework defect or FEA-ready. It does **not** merge #8 and #9, close them, or
-amend Normative ADRs/Assets. Human acceptance of this report is required before
-any Issue-status action.
+Framework defect or FEA-ready. A Met maturity trigger may justify a bounded
+Informative/operational Design Investigation; it does **not** automatically
+justify FEA, new Norms, or Runtime changes. It does **not** merge #8 and #9,
+close them, or amend Normative ADRs/Assets. Human acceptance of this report is
+required before any Issue-status action.
 
 If this document and an Accepted ADR or labelled Framework Asset appear to
 disagree, the Accepted ADRs and labelled Framework Assets are authoritative.
@@ -79,15 +81,21 @@ current `main` observations catalog remains the living RI evidence surface
 | ----- | -------- | -------------- |
 | Agents inferring material decisions despite Stop | RI Policies in SafeHouse, Budget Buddy, Vagtplan App, Fitness explicitly forbid agent self-approval and require Stop/Escalate on scope/authority gaps; OBS-005/025/040 show Draft≠Effective and Stop under automation | **Insufficient evidence** of Normative failure pattern; observed practice is **authority applied correctly** |
 | Proceeding without Decision Owner acceptance | OBS-005 reinforced across many validations: Human Acceptance / Ready/merge remain separate Human Direction | **Authority applied correctly** |
-| Repeated project interactive stop-resume / HDQ / Orchestrator gates | Project Policy specialisations (e.g. Vagtplan review orchestration gates; SafeHouse/Budget Orchestrator disposition; Fitness HDQ usage in validations) | **Project Policy / SDOF operating** specialisations of existing Norms — not proof Norms missing |
+| Repeated project interactive stop-resume / HDQ / Orchestrator gates | Fitness HDQ records across many validations (e.g. OBS-005 Draft≠Effective / Human Direction; HDQ-CS / HDQ-CB patterns cited in OBS/VALIDATION narrative); SafeHouse and Budget Buddy Orchestrator disposition / Review Scope wait-for-Human patterns; Vagtplan App Policy review-orchestration gates A–D requiring Orchestrator disposition before Ready/merge continuation | **Recurring local interactive decision mechanisms** — Project Policy / operating specialisations of existing Norms. Demonstrates trigger-(b) *need*; does **not** by itself prove Normative insufficiency |
 | Ambiguity of question/wait/record/resume | Normative “record Decision Support Outcome / Approval Decision” exists; conversational UX script does not | **Framework discoverability / Informative packaging** residual — not demonstrated Normative hole |
 
-### 3.4 Maturity triggers (must not lower threshold)
+### 3.4 Maturity triggers (must not raise or lower threshold)
+
+Trigger wording is taken **verbatim** from Evolution Backlog item 14 / Issue #8.
+A Met trigger means the Candidate is timely for the backlog’s stated next step
+(**Design Investigation of Informative/operational packaging**). It does **not**
+require proof that local gates invent missing Normative Framework law, and it
+does **not** by itself authorise FEA, new Norms, or Runtime changes.
 
 | Trigger (Issue #8 / item 14) | Determination | Rationale |
 | ---------------------------- | ------------- | --------- |
 | (a) Two or more independent RI/Alpha sessions where agents infer material decisions **despite** existing Stop/Human Authority | **Not met** | Cited OBS-025/027 are Positive validations of Stop/Decision Owner, not inference failures. No second verified independent failure session established in this assessment. |
-| (b) Repeated need for local ad-hoc interactive decision gates | **Not met** (as Normative-trigger evidence) | Repeated Policy/HDQ/Orchestrator patterns are **proportionate specialisations** of FA-019/015/Stop, not demonstrated “ad-hoc gates inventing missing Framework law.” Counting successful Policy use as trigger failure would silently lower the threshold. |
+| (b) Repeated need for local ad-hoc interactive decision gates | **Met** | Exact trigger asks whether projects repeatedly needed **local interactive decision gates**, not whether those gates invent missing Framework law. Repository-traceable recurrence: (1) Fitness RI HDQ / Human Direction stop-and-wait patterns across multiple validations; (2) SafeHouse and Budget Buddy Orchestrator / Review Scope disposition gates that require Human Direction before material continuation; (3) Vagtplan App Policy mandatory review-orchestration gates (A–D) encoding interactive disposition before Ready/merge. These are intentional Project Policy specialisations of FA-019/015/Stop, yet they are still **local interactive decision gates** under the trigger’s actual wording. **Evidence strength:** medium–high (multi-repo, multi-validation Policy/HDQ practice). **Limitations:** “ad-hoc” is read as project-local/invented-for-the-repo rather than pejorative; gates are not a single shared UX script; chat-only episodes without repository traces were not counted. |
 | (c) Stewards cannot identify one clear operational sequence covering question, wait, record, bounded resume | **Not met** | Stewards **can** identify Normative sequence: Stop → Decision Support (options/recommendation/record) → wait for Human Decision Owner → bound resume → Approval when acceptance required. “One focused question at a time” remains **Informative/UX packaging**, not a missing Normative capability. |
 
 ### 3.5 Ownership
@@ -95,20 +103,20 @@ current `main` observations catalog remains the living RI evidence surface
 | Potential gap | Owner |
 | ------------- | ----- |
 | Do not infer material binds; Stop; human Approval | **Existing SDF Normative** — already sufficient |
-| Interactive conversational packaging of stop-resume | **Informative SDF** (Invocation / Decision Support teaching) and/or **SDOF** agent packaging — optional |
-| Project HDQ / Orchestrator gates | **Project Policy** |
-| New Runtime capability / mandatory questionnaire / extra Human gate | **Not justified** |
+| Interactive conversational packaging of stop-resume (options → one focused question → wait → record → bounded resume) | **Informative SDF** (Invocation / Decision Support teaching) and/or **SDOF** agent packaging — **timely for bounded Design Investigation** after trigger (b) |
+| Project HDQ / Orchestrator gates | **Project Policy** (observed recurrence; inputs to packaging investigation) |
+| New Runtime capability / mandatory questionnaire / extra Human gate | **Not justified** by trigger (b) alone |
 
-**SDOF overlap:** closed [SDOF #51](https://github.com/tr1skow/Software-Development-Operating-Framework/issues/51) (*Decision Support before mechanism commitment…*) addresses adjacent operating Decision Support timing — do **not** duplicate. No new SDOF tracker recommended from this assessment alone.
+**SDOF overlap:** closed [SDOF #51](https://github.com/tr1skow/Software-Development-Operating-Framework/issues/51) (*Decision Support before mechanism commitment…*) addresses adjacent operating Decision Support timing — do **not** duplicate. No new SDOF tracker recommended from this assessment alone unless the Design Investigation later identifies a distinct operating-only residual.
 
 ### 3.6 Recommendation for #8
 
 | Layer | Conclusion |
 | ----- | ---------- |
-| Normative SDF sufficiency | **Already sufficient** for Stop, Decision Support, Approval, Human Authority |
-| Maturity / FEA / Design Investigation | **Not established** — all three triggers **Not met** |
-| Practical operating guidance | Residual **Informative/SDOF packaging** hypothesis only |
-| **Recommended Issue disposition** | **Retain as an early evidence candidate** for optional Informative/SDOF packaging — **do not** promote to Design Investigation or FEA; **do not** treat as confirmed defect. Optional later: bounded Informative clarification of the already-existing Normative stop-resume sequence (no new Norms/gates). |
+| Normative SDF sufficiency | **Already sufficient** for Stop, Decision Support, Approval, Human Authority — unchanged by trigger (b) |
+| Maturity | Trigger **(b) Met** → Candidate is timely for backlog-stated **Design Investigation of Informative/operational packaging** |
+| FEA / Normative / Runtime | **Not justified** — Met packaging trigger ≠ Framework defect or FEA readiness |
+| **Recommended Issue disposition** | **Promote to a bounded Informative/operational Design Investigation** (stop-and-resume packaging discoverability under existing FA-019/015/Stop/Invocation). Keep #8 open as tracker until that investigation is Human-accepted. **Do not** FEA; **do not** add Norms, Runtime peers, mandatory questionnaires, or extra Human gates. |
 
 ---
 
@@ -174,13 +182,14 @@ Backlog item 15. Distinct from item 7 (Published Consumer Baseline packaging).
 | Issue | Trigger | Result |
 | ----- | ------- | ------ |
 | #8 | (a) Multi-session material inference despite Stop/HA | **Not met** |
-| #8 | (b) Repeated ad-hoc interactive decision gates | **Not met** (as Normative-trigger evidence) |
+| #8 | (b) Repeated ad-hoc interactive decision gates | **Met** |
 | #8 | (c) No identifiable question/wait/record/resume sequence | **Not met** |
 | #9 | (a) Multi-session prompt/memory > Entry | **Not met** |
 | #9 | (b) Continue despite missing/conflicting authority | **Not met** |
 | #9 | (c) No identifiable bootstrap sequence | **Not met** |
 
-**None met → neither Candidate is mature for Design Investigation or FEA on this evidence.**
+**#8:** trigger (b) **Met** → timely for **Informative/operational Design Investigation** only (per item 14 Expected Investigation Type). **Not** FEA-ready; Normative sufficiency unchanged.  
+**#9:** all triggers **Not met** → Normative bootstrap behaviour **sufficiently covered**; no Design Investigation required for #9 on this evidence.
 
 ---
 
@@ -191,8 +200,9 @@ Backlog item 15. Distinct from item 7 (Published Consumer Baseline packaging).
 | New Normative interactive questionnaire / Human gate | **Reject** |
 | New Normative bootstrap Runtime capability | **Reject** |
 | Mandatory prompt scripts / universal agent workflows | **Reject** |
-| FEA for #8 or #9 now | **Reject** — triggers unmet |
-| Bounded Informative clarification of existing Normative sequences | **Optional** — prefer for #8 packaging residual; #9 largely already covered by FA-005/Invocation |
+| FEA for #8 or #9 now | **Reject** — Met packaging trigger ≠ FEA |
+| Bounded Informative/operational Design Investigation for #8 stop-resume packaging | **Recommend** — authorised next step after trigger (b) |
+| Bounded Informative clarification for #9 | **Not required** for Normative bootstrap; packaging/portability stays with item 7 |
 | New Issues | **None** without distinct evidenced need |
 | Duplicate SDOF trackers | **Avoid** — cite #51 (closed) adjacency for Decision Support operating timing only |
 
@@ -202,7 +212,7 @@ Backlog item 15. Distinct from item 7 (Published Consumer Baseline packaging).
 
 | Issue | Recommended disposition | Normative sufficiency | Next bar |
 | ----- | ----------------------- | --------------------- | -------- |
-| **#8** | **Retain as early evidence candidate** (Informative/SDOF packaging only) | Sufficient | Reopen maturity only if trigger (a)/(b) verified failures appear |
+| **#8** | **Promote to bounded Informative/operational Design Investigation** (packaging discoverability) | Sufficient | Design Investigation may recommend Informative teaching and/or SDOF packaging; **not** FEA/Norms unless later evidence appears |
 | **#9** | **Close as sufficiently covered** (Normative bootstrap behaviour) | Sufficient | Packaging/portability → item 7 / Informative; do not FEA #9 |
 
 Do **not** merge #8 and #9. Do **not** auto-close either Issue in this PR.
@@ -214,7 +224,8 @@ Do **not** merge #8 and #9. Do **not** auto-close either Issue in this PR.
 **Uncertainties**
 
 - Private RI validation bodies beyond `observations.md` / VALIDATION-020 title were not exhaustively re-read line-by-line; primary OBS classifications were taken from the RI observations catalog on Fitness `main`.
-- Absence of harvested failure sessions is **not** proof failures never occur in chat — only that **repository-traceable** multi-session trigger evidence was **not met**.
+- Absence of harvested failure sessions is **not** proof failures never occur in chat — only that **repository-traceable** multi-session trigger-(a)/(#9) failure evidence was **not met**.
+- Trigger (b) for #8 is assessed against **repeated local interactive decision-gate need**, separately from Normative sufficiency; chat-only episodes without repository traces were excluded.
 - Pin-lag stewardship note remains stewardship-coloured; not independently re-litigated as a separate validation ID in this report.
 
 **Non-claims**
